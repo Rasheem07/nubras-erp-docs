@@ -44,7 +44,7 @@ export default function RootLayout({
                 <DocsSidebar />
               </aside>
               {/* Removed max-height and adjusted overflow */}
-              <main className="w-full relative py-6 overflow-y-auto h-full pr-6">
+              <main className="w-full relative py-6 overflow-y-auto h-full px-6">
                 {children}
               </main>
             </div>

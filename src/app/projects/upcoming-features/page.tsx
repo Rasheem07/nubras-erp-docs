@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function UpcomingFeaturesDocumentation() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Upcoming Features</h1>
@@ -49,14 +49,14 @@ export default function UpcomingFeaturesDocumentation() {
               <li>Differentiate your business with cutting-edge technology</li>
               <li>Improve client satisfaction and reduce returns</li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               The AR Preview Generator is currently in beta testing and will be available in the next major release.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">How It Will Work</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               "A client requests a custom kandura with specific embroidery. Instead of just describing the final
               product, you'll be able to create an AR preview showing exactly how it will look. You'll select the
               kandura style from the template library, apply the client's measurements, choose the fabric color and
@@ -99,7 +99,7 @@ export default function UpcomingFeaturesDocumentation() {
               <li>Measurements are imported directly into the project</li>
               <li>The system can generate custom patterns based on these measurements</li>
             </ol>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Body Scanning Integration is currently in development and will be released in phases, starting with basic
               measurement extraction.
             </p>
@@ -107,7 +107,7 @@ export default function UpcomingFeaturesDocumentation() {
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Benefits for Tailoring Businesses</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               "Traditional manual measurements can vary between tailors and are prone to human error. With the Body
               Scanning Integration, you'll be able to capture over 100 precise measurements in seconds, ensuring
               consistent results every time. For a wedding dress project, instead of taking 20-30 manual measurements,
@@ -165,14 +165,14 @@ export default function UpcomingFeaturesDocumentation() {
                 communications
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               WhatsApp Integration is scheduled for release in the next quarter, pending final API approvals.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Application</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               "When a client's garment reaches the first fitting stage, the system will automatically send a WhatsApp
               message: 'Your custom suit is ready for first fitting. Please click here to schedule an appointment.' The
               client can select a time slot directly in the chat. After the fitting, you can send photos of the garment

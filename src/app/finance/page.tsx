@@ -26,7 +26,7 @@ export default function FinanceDocsPage() {
               <CardDescription>Foundation of financial management</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Chart of Accounts customized for tailoring</li>
                 <li>Double-entry accounting system</li>
                 <li>Journal entries for accurate record-keeping</li>
@@ -46,7 +46,7 @@ export default function FinanceDocsPage() {
               <CardDescription>Monitor money moving in and out</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Bank account tracking and reconciliation</li>
                 <li>Cash flow forecasting</li>
                 <li>Payment tracking and reminders</li>
@@ -68,7 +68,7 @@ export default function FinanceDocsPage() {
               <CardDescription>Manage customer payments</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Professional invoice creation</li>
                 <li>Customer payment tracking</li>
                 <li>Accounts receivable aging</li>
@@ -88,7 +88,7 @@ export default function FinanceDocsPage() {
               <CardDescription>Track supplier payments</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Expense tracking by category</li>
                 <li>Supplier management</li>
                 <li>Purchase order tracking</li>
@@ -110,7 +110,7 @@ export default function FinanceDocsPage() {
               <CardDescription>Insights for decision-making</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Income statements (profit & loss)</li>
                 <li>Balance sheets</li>
                 <li>Cash flow statements</li>
@@ -130,7 +130,7 @@ export default function FinanceDocsPage() {
               <CardDescription>Plan for the future</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Budget creation and tracking</li>
                 <li>Variance analysis</li>
                 <li>Financial projections</li>
@@ -150,7 +150,7 @@ export default function FinanceDocsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Pricing Strategy</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Track the cost of materials, labor, and overhead to ensure your pricing for custom garments and alterations
             is profitable. Analyze which services generate the highest margins to focus your marketing efforts.
           </p>
@@ -158,7 +158,7 @@ export default function FinanceDocsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Inventory Management</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Monitor the value of your fabric inventory, track fabric costs by supplier, and identify which materials
             offer the best value. Reduce waste by tracking material usage and identifying inefficiencies.
           </p>
@@ -166,7 +166,7 @@ export default function FinanceDocsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Business Growth</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Use financial reports to identify growth opportunities, determine when to hire additional tailors, and
             decide if expanding to a new location is financially viable. Track the return on investment for new
             equipment purchases.
@@ -175,7 +175,7 @@ export default function FinanceDocsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Tax Compliance</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Keep accurate records for VAT/sales tax, income tax, and payroll tax. Generate tax reports and ensure you
             have the documentation needed for tax filing and potential audits.
           </p>
@@ -183,7 +183,7 @@ export default function FinanceDocsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Fatima runs a growing tailoring business with five employees. Each morning, she reviews her Finance
             Dashboard to check cash flow and outstanding invoices. When clients pick up their custom garments, she
             creates professional invoices on the spot. At month-end, she reconciles her accounts, reviews her profit

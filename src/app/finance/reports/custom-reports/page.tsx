@@ -22,7 +22,7 @@ export default function CustomReportsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Focused Analysis</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Create reports that focus on specific aspects of your business, such as profitability by garment type or
               fabric usage efficiency.
             </p>
@@ -30,7 +30,7 @@ export default function CustomReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Tailored Metrics</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Include the exact metrics and KPIs that matter most to your tailoring business, such as average revenue
               per customer or material cost percentage.
             </p>
@@ -38,7 +38,7 @@ export default function CustomReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Custom Comparisons</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Compare performance across different time periods, locations, or service types to identify trends and
               opportunities.
             </p>
@@ -46,7 +46,7 @@ export default function CustomReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Specialized Formats</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Present data in the most meaningful format for your needs, whether that's detailed tables, visual charts,
               or executive summaries.
             </p>
@@ -87,7 +87,7 @@ export default function CustomReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Fabric purchases by type and supplier</li>
             <li>Fabric used in completed projects</li>
             <li>Fabric waste percentage</li>
@@ -105,7 +105,7 @@ export default function CustomReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Revenue by service type</li>
             <li>Direct costs (materials, labor) by service type</li>
             <li>Gross profit margin by service type</li>
@@ -122,7 +122,7 @@ export default function CustomReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Total revenue by customer</li>
             <li>Number of orders/services by customer</li>
             <li>Average order value</li>
@@ -141,7 +141,7 @@ export default function CustomReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Monthly revenue comparison across years</li>
             <li>Service type demand by month</li>
             <li>Staffing levels vs. demand</li>
@@ -198,7 +198,7 @@ export default function CustomReportsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Drill-Down Capability</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Click on summary figures to see the detailed transactions that make up that number. For example, click on
               "Total Fabric Expenses" to see a list of all fabric purchases.
             </p>
@@ -206,7 +206,7 @@ export default function CustomReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Conditional Formatting</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Set up visual cues like color coding to highlight important information. For example, highlight profit
               margins below 30% in red or customer balances over 60 days in orange.
             </p>
@@ -214,7 +214,7 @@ export default function CustomReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Calculated Fields</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Create custom calculations based on your data. For example, calculate "Revenue per Employee" or "Material
               Cost as Percentage of Revenue."
             </p>
@@ -222,7 +222,7 @@ export default function CustomReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Interactive Dashboards</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Combine multiple reports into interactive dashboards with filters and controls that allow users to explore
               the data from different angles.
             </p>
@@ -231,7 +231,7 @@ export default function CustomReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Mohammed runs a tailoring business that specializes in both traditional and modern clothing. He created a
             custom 'Service Profitability Report' that breaks down his revenue, costs, and profit margins by garment
             type. The report revealed that while traditional wedding attire generated the highest total revenue,

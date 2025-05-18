@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ProjectPlanningDocumentation() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Project Planning</h1>
@@ -99,7 +99,7 @@ export default function ProjectPlanningDocumentation() {
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Layla is planning a complex bridal gown project with extensive beadwork. She starts with the standard WBS
               template but adds a specialized phase for beading work between Construction and Finishing. She breaks this
               down into tasks: bead pattern transfer, base beading application, accent beading, and quality check. She
@@ -199,14 +199,14 @@ export default function ProjectPlanningDocumentation() {
                 <span className="font-medium">Services:</span> Specialized services like embroidery or beading
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Resources must be defined in the system before they can be allocated to projects.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Ahmed manages a tailoring workshop with five tailors of varying skill levels. He's planning a rush order
               for a wedding party that includes multiple garments. In the resource planning view, he assigns his most
               experienced tailor, Yusuf, to the complex bride's dress, while allocating his newer tailors to the simpler
@@ -261,7 +261,7 @@ export default function ProjectPlanningDocumentation() {
                 <span className="font-medium">Client Risks:</span> Changes in requirements or dissatisfaction
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               The system includes a library of common risks that can be added to your project with a single click.
             </p>
           </div>

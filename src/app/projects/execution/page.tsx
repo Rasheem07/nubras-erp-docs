@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ProjectExecutionDocumentation() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Project Execution</h1>
@@ -69,7 +69,7 @@ export default function ProjectExecutionDocumentation() {
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Noor manages a team of five tailors working on multiple projects simultaneously. Each morning, she
               reviews the task list for all active projects. She notices that Ali has completed the pattern drafting for
               a custom suit, so she updates the task status to 'Completed' and adds a comment noting that the pattern
@@ -127,14 +127,14 @@ export default function ProjectExecutionDocumentation() {
                 <span className="font-medium">Final Inspection:</span> Comprehensive check before delivery
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Each checkpoint has specific criteria that must be met before proceeding to the next phase.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Samir is the quality control specialist at a high-end tailoring shop. When a custom suit reaches the
               construction quality checkpoint, Samir conducts a thorough inspection using the standardized checklist in
               the system. He checks each seam for proper tension and stitch length, examines the internal structure for
@@ -192,7 +192,7 @@ export default function ProjectExecutionDocumentation() {
                 <span className="font-medium">Quality Issues:</span> Defects, workmanship problems, etc.
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               When creating a new issue, select the appropriate category to help with organization and reporting.
             </p>
           </div>

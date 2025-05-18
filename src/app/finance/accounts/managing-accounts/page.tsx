@@ -39,7 +39,7 @@ export default function ManagingAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">When to Create New Accounts</h3>
-          <ul className="list-disc list-inside space-y-2 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-2 mt-2 text-base">
             <li>When you start offering a new service (e.g., wedding dress alterations)</li>
             <li>When you want to track a specific type of expense separately (e.g., premium fabrics)</li>
             <li>When you open a new bank account</li>
@@ -66,7 +66,7 @@ export default function ManagingAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Important Note on Editing Accounts</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Be cautious when editing accounts that already have transactions. Changing the account type or number can
             affect your financial reports. It's generally better to create a new account and transfer the balance rather
             than changing fundamental properties of an active account.
@@ -92,7 +92,7 @@ export default function ManagingAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Benefits of Deactivating vs. Deleting</h3>
-          <ul className="list-disc list-inside space-y-2 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-2 mt-2 text-base">
             <li>Preserves historical financial data</li>
             <li>Maintains the integrity of past financial reports</li>
             <li>Allows you to reactivate the account if needed in the future</li>
@@ -120,7 +120,7 @@ export default function ManagingAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Noor runs a tailoring shop and recently expanded to offer embroidery services. To track this new revenue
             stream separately, she created a new account: 4150 Embroidery Services. She made it a sub-account under 4100
             Custom Tailoring. She also created a new expense account: 5115 Embroidery Supplies, as a sub-account under

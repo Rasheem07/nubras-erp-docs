@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function InstallationPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Installation Guide</h1>
@@ -43,7 +43,7 @@ export default function InstallationPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="list-disc list-inside space-y-2 text-sm">
+                  <ul className="list-disc list-inside space-y-2 text-base">
                     <li>Web Server: Apache 2.4+ or Nginx 1.16+</li>
                     <li>PHP: Version 8.1 or higher</li>
                     <li>Memory: Minimum 4GB RAM (8GB recommended)</li>
@@ -61,7 +61,7 @@ export default function InstallationPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="list-disc list-inside space-y-2 text-sm">
+                  <ul className="list-disc list-inside space-y-2 text-base">
                     <li>MySQL: Version 8.0 or higher</li>
                     <li>MariaDB: Version 10.5 or higher</li>
                     <li>PostgreSQL: Version 13 or higher</li>
@@ -89,10 +89,10 @@ export default function InstallationPage() {
             <div className="space-y-4 mt-4">
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Step 1: Prepare Your Server</h3>
-                <p className="text-sm mb-2">
+                <p className="text-base mb-2">
                   Ensure your server meets all the requirements and has the necessary software installed.
                 </p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # Update your system
                   <br />
                   sudo apt update && sudo apt upgrade -y
@@ -106,10 +106,10 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Step 2: Download Nubras ERP</h3>
-                <p className="text-sm mb-2">
+                <p className="text-base mb-2">
                   Download the latest version of Nubras ERP from the official website or repository.
                 </p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # Clone the repository
                   <br />
                   git clone https://github.com/nubras/erp.git /var/www/nubras-erp
@@ -124,8 +124,8 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Step 3: Create Database</h3>
-                <p className="text-sm mb-2">Create a new database for Nubras ERP.</p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <p className="text-base mb-2">Create a new database for Nubras ERP.</p>
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # Access MySQL
                   <br />
                   sudo mysql -u root -p
@@ -146,8 +146,8 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Step 4: Configure Web Server</h3>
-                <p className="text-sm mb-2">Configure your web server to serve Nubras ERP.</p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <p className="text-base mb-2">Configure your web server to serve Nubras ERP.</p>
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # Create Apache virtual host configuration
                   <br />
                   sudo nano /etc/apache2/sites-available/nubras-erp.conf
@@ -186,8 +186,8 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Step 5: Run Installation Wizard</h3>
-                <p className="text-sm mb-2">Complete the installation using the web-based installation wizard.</p>
-                <ol className="list-decimal list-inside text-sm space-y-2">
+                <p className="text-base mb-2">Complete the installation using the web-based installation wizard.</p>
+                <ol className="list-decimal list-inside text-base space-y-2">
                   <li>
                     Open your browser and navigate to <code>http://erp.yourdomain.com</code>
                   </li>
@@ -220,7 +220,7 @@ export default function InstallationPage() {
                   <CardDescription>Configure accounting and financial settings</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ol className="list-decimal list-inside text-sm space-y-2">
+                  <ol className="list-decimal list-inside text-base space-y-2">
                     <li>Navigate to System Settings {">"} Modules</li>
                     <li>Enable the Finance Module</li>
                     <li>Configure your Chart of Accounts</li>
@@ -236,7 +236,7 @@ export default function InstallationPage() {
                   <CardDescription>Configure inventory and material management</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ol className="list-decimal list-inside text-sm space-y-2">
+                  <ol className="list-decimal list-inside text-base space-y-2">
                     <li>Navigate to System Settings &gt; Modules</li>
                     <li>Enable the Inventory Module</li>
                     <li>Set up inventory locations</li>
@@ -252,7 +252,7 @@ export default function InstallationPage() {
                   <CardDescription>Configure project and order management</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ol className="list-decimal list-inside text-sm space-y-2">
+                  <ol className="list-decimal list-inside text-base space-y-2">
                     <li>Navigate to System Settings &gt; Modules</li>
                     <li>Enable the Project Management Module</li>
                     <li>Configure project stages and statuses</li>
@@ -268,7 +268,7 @@ export default function InstallationPage() {
                   <CardDescription>Configure point of sale operations</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ol className="list-decimal list-inside text-sm space-y-2">
+                  <ol className="list-decimal list-inside text-base space-y-2">
                     <li>Navigate to System Settings &gt; Modules</li>
                     <li>Enable the POS Module</li>
                     <li>Set up POS terminals</li>
@@ -284,7 +284,7 @@ export default function InstallationPage() {
                   <CardDescription>Configure human resources management</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ol className="list-decimal list-inside text-sm space-y-2">
+                  <ol className="list-decimal list-inside text-base space-y-2">
                     <li>Navigate to System Settings &gt; Modules</li>
                     <li>Enable the HR Module</li>
                     <li>Configure employee categories</li>
@@ -300,7 +300,7 @@ export default function InstallationPage() {
                   <CardDescription>Configure customer support operations</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ol className="list-decimal list-inside text-sm space-y-2">
+                  <ol className="list-decimal list-inside text-base space-y-2">
                     <li>Navigate to System Settings &gt; Modules</li>
                     <li>Enable the Customer Support Module</li>
                     <li>Configure ticket categories</li>
@@ -334,7 +334,7 @@ export default function InstallationPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm mb-4">Configure the following subdomains for each module:</p>
+                  <p className="text-base mb-4">Configure the following subdomains for each module:</p>
 
                   <div className="overflow-x-auto">
                     <table className="min-w-full border-collapse">
@@ -410,8 +410,8 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">DNS Configuration</h3>
-                <p className="text-sm mb-2">Add the following DNS records to your domain:</p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <p className="text-base mb-2">Add the following DNS records to your domain:</p>
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # A Records (replace 123.45.67.89 with your server IP)
                   <br />
                   erp.yourdomain.com. IN A 123.45.67.89
@@ -434,8 +434,8 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">Web Server Configuration</h3>
-                <p className="text-sm mb-2">Configure your web server to handle multiple subdomains:</p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <p className="text-base mb-2">Configure your web server to handle multiple subdomains:</p>
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # Create separate virtual host files for each subdomain
                   <br />
                   sudo nano /etc/apache2/sites-available/finance.yourdomain.com.conf
@@ -470,8 +470,8 @@ export default function InstallationPage() {
 
               <div className="border rounded-md p-4">
                 <h3 className="text-lg font-medium mb-2">SSL Configuration</h3>
-                <p className="text-sm mb-2">Secure your subdomains with SSL certificates:</p>
-                <div className="bg-muted p-3 rounded-md text-sm font-mono">
+                <p className="text-base mb-2">Secure your subdomains with SSL certificates:</p>
+                <div className="bg-muted p-3 rounded-md text-base font-mono">
                   # Install Certbot for Let's Encrypt certificates
                   <br />
                   sudo apt install certbot python3-certbot-apache -y

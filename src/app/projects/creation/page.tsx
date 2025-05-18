@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ProjectCreationDocs() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Project Creation</h1>
@@ -68,7 +68,7 @@ export default function ProjectCreationDocs() {
               <li>The template will pre-fill many fields including task lists, material requirements, and timelines</li>
               <li>Customize the pre-filled information as needed for your specific project</li>
             </ol>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               You can create your own templates by saving existing projects as templates in the Project Details page.
             </p>
           </div>
@@ -120,14 +120,14 @@ export default function ProjectCreationDocs() {
                 <span className="font-medium">Address:</span> Physical address for deliveries or home fittings
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Additional optional fields include alternate phone, company name, and special notes.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Aisha runs a bridal tailoring business. When a new client, Fatima, comes in for a wedding dress, Aisha
               creates a new project in the system. She names it 'Fatima's Wedding Dress', selects 'Bridal' as the
               project type, sets a high priority, and schedules it to start immediately with completion three months
@@ -178,7 +178,7 @@ export default function ProjectCreationDocs() {
                 type
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               The system will automatically show the required measurements based on the project type selected.
             </p>
           </div>
@@ -210,14 +210,14 @@ export default function ProjectCreationDocs() {
               <li>Accounts for fabric width and direction</li>
               <li>Suggests optimal cutting layouts</li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               To use automatic calculation, click "Calculate Requirements" after selecting the fabric.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Khalid is creating a project for a custom kandura. After recording the client's measurements, he moves to
               the Materials tab. He selects a premium white cotton fabric as the primary material. The system
               automatically calculates that he'll need 4.5 meters based on the client's measurements and the standard

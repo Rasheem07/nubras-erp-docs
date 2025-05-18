@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ProjectClosureDocumentation() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Project Closure</h1>
@@ -52,14 +52,14 @@ export default function ProjectClosureDocumentation() {
               <li>Payment received or payment plan established</li>
               <li>Project documentation completed</li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               The system will not allow project closure until all required items on the checklist are completed.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Fatima has completed a wedding dress project and is ready to close it. She navigates to the Closure
               section and selects the project. The system displays the closure checklist, showing that the final fitting
               is complete, the client has signed off on the dress, and all quality checks have passed. Fatima notices
@@ -113,7 +113,7 @@ export default function ProjectClosureDocumentation() {
                 <span className="font-medium">Client Report:</span> Client-friendly summary of the project
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Reports can be customized to include or exclude specific sections based on your needs.
             </p>
           </div>
@@ -161,7 +161,7 @@ export default function ProjectClosureDocumentation() {
                 <span className="font-medium">Resource Allocation:</span> Effective use of people and equipment
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Lessons learned become part of your organization's knowledge base and can be searched and referenced for
               future projects.
             </p>
@@ -169,7 +169,7 @@ export default function ProjectClosureDocumentation() {
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "After completing a complex traditional wedding outfit with extensive embroidery, Ahmed documents several
               valuable lessons learned. In the Construction Techniques category, he notes that pre-testing the
               embroidery pattern on scrap fabric saved significant time and prevented potential mistakes on the actual
@@ -228,7 +228,7 @@ export default function ProjectClosureDocumentation() {
                 experience
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Feedback can be collected using rating scales, open-ended questions, or a combination of both.
             </p>
           </div>

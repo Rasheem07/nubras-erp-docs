@@ -22,7 +22,7 @@ export default function BankingTransactionsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Deposits</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Money coming into your bank account. For a tailoring business, this typically includes:
             </p>
             <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
@@ -36,7 +36,7 @@ export default function BankingTransactionsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Withdrawals/Payments</h3>
-            <p className="text-sm mt-2">Money going out of your bank account. Common examples include:</p>
+            <p className="text-base mt-2">Money going out of your bank account. Common examples include:</p>
             <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
               <li>Supplier payments for fabric and materials</li>
               <li>Rent for your shop space</li>
@@ -48,7 +48,7 @@ export default function BankingTransactionsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Transfers</h3>
-            <p className="text-sm mt-2">Moving money between your own accounts. Examples include:</p>
+            <p className="text-base mt-2">Moving money between your own accounts. Examples include:</p>
             <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
               <li>Moving funds from checking to savings</li>
               <li>Transferring money to a payroll account</li>
@@ -59,7 +59,7 @@ export default function BankingTransactionsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Bank Fees and Interest</h3>
-            <p className="text-sm mt-2">Charges from the bank or interest earned:</p>
+            <p className="text-base mt-2">Charges from the bank or interest earned:</p>
             <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
               <li>Monthly account maintenance fees</li>
               <li>Transaction fees</li>
@@ -157,7 +157,7 @@ export default function BankingTransactionsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Important Note on Editing</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Be cautious when editing transactions that have already been reconciled. Changing reconciled transactions
             can cause discrepancies in your accounting. If you must change a reconciled transaction, you may need to
             redo the reconciliation.
@@ -175,7 +175,7 @@ export default function BankingTransactionsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">When to Delete vs. Void</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Only delete transactions that were entered in error and never actually occurred. For transactions that did
             occur but need to be reversed (like a bounced check), use the "Void" option instead, which maintains a
             record of the original transaction and its reversal.
@@ -211,7 +211,7 @@ export default function BankingTransactionsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Mohammed runs a tailoring shop specializing in traditional clothing. Every Monday, he deposits the previous
             week's cash payments into his business checking account. In the Finance Module, he records this as a deposit
             to his checking account, categorized as 'Custom Tailoring Revenue' with a description like 'Week of May 15

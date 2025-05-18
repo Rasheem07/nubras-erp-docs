@@ -36,7 +36,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Why This Matters</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             This information appears on invoices, financial reports, and tax documents. Keeping it accurate and complete
             ensures professional communication with customers and compliance with regulatory requirements.
           </p>
@@ -57,7 +57,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Choosing Your Fiscal Year</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Many tailoring businesses align their fiscal year with the calendar year (January-December), but you might
             choose a different period based on your business cycle. For example, if your busy season is wedding season,
             you might set your fiscal year to start after this period to better track annual performance.
@@ -95,7 +95,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Recommended Account Number Structure</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>1000-1999: Assets</li>
             <li>2000-2999: Liabilities</li>
             <li>3000-3999: Equity</li>
@@ -140,7 +140,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Invoice Number Format Examples</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>INV-00001 (Basic format)</li>
             <li>INV-2023-00001 (Including year)</li>
             <li>INV-CUS-00001 (For custom tailoring)</li>
@@ -180,7 +180,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Common Payment Terms for Tailoring</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Due on Receipt (for alterations and smaller jobs)</li>
             <li>50% Deposit, 50% on Completion (for custom garments)</li>
             <li>Net 15 (for regular customers)</li>
@@ -206,7 +206,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Recommended Role Setup</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>
               <span className="font-medium">Owner/Admin:</span> Full access to all financial features
             </li>
@@ -238,7 +238,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Why Audit Trails Matter</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Audit trails record who made changes to financial data, when they made them, and what was changed. This
             creates accountability, helps troubleshoot errors, and provides documentation for tax or regulatory
             purposes.
@@ -295,7 +295,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Backup Best Practices</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Schedule daily backups for active businesses</li>
             <li>Store backups in multiple locations</li>
             <li>Test backup restoration periodically</li>
@@ -319,7 +319,7 @@ export default function FinancialSettingsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "When Layla started her tailoring business, she spent time carefully setting up her Finance Module. She
             configured her fiscal year to start in September, after the busy summer wedding season, giving her a clearer
             picture of her annual business cycle. She created custom invoice templates with her logo and brand colors,

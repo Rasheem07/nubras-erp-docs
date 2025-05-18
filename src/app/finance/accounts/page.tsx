@@ -24,23 +24,23 @@ export default function FinanceAccountsPage() {
               <ul className="space-y-3">
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Assets (1000-1999)</span>
-                  <span className="text-sm text-muted-foreground">What your business owns</span>
+                  <span className="text-base text-muted-foreground">What your business owns</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Liabilities (2000-2999)</span>
-                  <span className="text-sm text-muted-foreground">What your business owes</span>
+                  <span className="text-base text-muted-foreground">What your business owes</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Equity (3000-3999)</span>
-                  <span className="text-sm text-muted-foreground">Owner's stake in the business</span>
+                  <span className="text-base text-muted-foreground">Owner's stake in the business</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Revenue (4000-4999)</span>
-                  <span className="text-sm text-muted-foreground">Money earned from services/sales</span>
+                  <span className="text-base text-muted-foreground">Money earned from services/sales</span>
                 </li>
                 <li className="flex justify-between items-center">
                   <span className="font-medium">Expenses (5000-6999)</span>
-                  <span className="text-sm text-muted-foreground">Costs of running your business</span>
+                  <span className="text-base text-muted-foreground">Costs of running your business</span>
                 </li>
               </ul>
             </CardContent>
@@ -52,23 +52,23 @@ export default function FinanceAccountsPage() {
               <ul className="space-y-3">
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">1200 - Fabric Inventory</span>
-                  <span className="text-sm text-muted-foreground">Asset</span>
+                  <span className="text-base text-muted-foreground">Asset</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">4100 - Custom Tailoring Revenue</span>
-                  <span className="text-sm text-muted-foreground">Revenue</span>
+                  <span className="text-base text-muted-foreground">Revenue</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">4200 - Alterations Revenue</span>
-                  <span className="text-sm text-muted-foreground">Revenue</span>
+                  <span className="text-base text-muted-foreground">Revenue</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">5100 - Fabric Costs</span>
-                  <span className="text-sm text-muted-foreground">Expense</span>
+                  <span className="text-base text-muted-foreground">Expense</span>
                 </li>
                 <li className="flex justify-between items-center">
                   <span className="font-medium">6100 - Tailor Wages</span>
-                  <span className="text-sm text-muted-foreground">Expense</span>
+                  <span className="text-base text-muted-foreground">Expense</span>
                 </li>
               </ul>
             </CardContent>
@@ -109,7 +109,7 @@ export default function FinanceAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Mohammed runs a tailoring shop specializing in traditional clothing. He needs to track his expensive sewing
             machines separately from his other equipment. He goes to Finance {">"} Accounts and clicks 'Add Account'. He
             creates account number 1510 named 'Sewing Machines' with type 'Asset' and subtype 'Fixed Asset'. He enters

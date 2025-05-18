@@ -248,9 +248,9 @@ export function DocsSidebar({ className }: DocsSidebarProps) {
             <div className="space-y-1">
               {docsConfig.sidebarNav.map((item) => (
                 <div key={item.title} className="py-2">
-                  <h3 className="px-4 text-sm font-medium">{item.title}</h3>
+                  <h3 className="px-4 text-base font-medium">{item.title}</h3>
                   {item?.items?.length && (
-                    <div className="grid grid-flow-row auto-rows-max text-sm">
+                    <div className="grid grid-flow-row auto-rows-max text-base">
                       {item.items.map((item) => (
                         <div key={item.title}>
                           <Link
@@ -263,7 +263,7 @@ export function DocsSidebar({ className }: DocsSidebarProps) {
                             {item.title}
                           </Link>
                           {item?.items?.length && (
-                            <div className="grid grid-flow-row auto-rows-max text-sm pl-6">
+                            <div className="grid grid-flow-row auto-rows-max text-base pl-6">
                               {item.items.map((subItem) => (
                                 <Link
                                   key={subItem.title}

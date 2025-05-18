@@ -26,7 +26,7 @@ export default function JournalEntriesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Debit and Credit Rules</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2 text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-2 text-base">
             <div>
               <p className="font-medium">Accounts that INCREASE with a Debit:</p>
               <ul className="list-disc list-inside mt-1">
@@ -57,7 +57,7 @@ export default function JournalEntriesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Accounting Adjustments</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Depreciation of sewing equipment</li>
               <li>Amortization of prepaid expenses</li>
               <li>Accrual of unpaid expenses</li>
@@ -67,7 +67,7 @@ export default function JournalEntriesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Error Corrections</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Fixing miscategorized transactions</li>
               <li>Correcting amount errors</li>
               <li>Adjusting inventory discrepancies</li>
@@ -77,7 +77,7 @@ export default function JournalEntriesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Non-Standard Transactions</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Owner's capital contributions</li>
               <li>Owner's drawings/withdrawals</li>
               <li>Asset transfers or disposals</li>
@@ -87,7 +87,7 @@ export default function JournalEntriesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Period-End Adjustments</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Month-end or year-end closing entries</li>
               <li>Inventory adjustments</li>
               <li>Revenue and expense matching</li>
@@ -110,7 +110,7 @@ export default function JournalEntriesPage() {
           <li>Enter a description that explains the purpose of the entry</li>
           <li>
             Add line items:
-            <ul className="list-disc list-inside ml-6 mt-2 text-sm">
+            <ul className="list-disc list-inside ml-6 mt-2 text-base">
               <li>Select the first account</li>
               <li>Enter the debit amount (if applicable)</li>
               <li>Enter the credit amount (if applicable)</li>
@@ -125,7 +125,7 @@ export default function JournalEntriesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Balancing Check</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             The Finance Module automatically calculates the total debits and credits as you add line items. The entry
             cannot be saved until the debits and credits are equal (balanced).
           </p>
@@ -138,7 +138,7 @@ export default function JournalEntriesPage() {
         <h3 className="scroll-m-20 text-xl font-semibold tracking-tight mt-6">Example 1: Recording Depreciation</h3>
 
         <div className="bg-muted p-4 rounded-lg mt-4 overflow-auto">
-          <table className="min-w-full text-sm">
+          <table className="min-w-full text-base">
             <thead>
               <tr>
                 <th className="text-left font-medium p-2">Account</th>
@@ -169,7 +169,7 @@ export default function JournalEntriesPage() {
         </h3>
 
         <div className="bg-muted p-4 rounded-lg mt-4 overflow-auto">
-          <table className="min-w-full text-sm">
+          <table className="min-w-full text-base">
             <thead>
               <tr>
                 <th className="text-left font-medium p-2">Account</th>
@@ -198,7 +198,7 @@ export default function JournalEntriesPage() {
         <h3 className="scroll-m-20 text-xl font-semibold tracking-tight mt-6">Example 3: Inventory Adjustment</h3>
 
         <div className="bg-muted p-4 rounded-lg mt-4 overflow-auto">
-          <table className="min-w-full text-sm">
+          <table className="min-w-full text-base">
             <thead>
               <tr>
                 <th className="text-left font-medium p-2">Account</th>
@@ -275,7 +275,7 @@ export default function JournalEntriesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Khalid owns a tailoring business and recently purchased a new industrial sewing machine for AED 15,000. The
             machine has an estimated useful life of 5 years with no salvage value. At the end of each month, Khalid
             creates a journal entry to record depreciation. He debits 'Depreciation Expense' for AED 250 (15,000 ÷ 5

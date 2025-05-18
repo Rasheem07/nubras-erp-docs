@@ -36,7 +36,7 @@ export default function AccountStructurePage() {
         </h2>
 
         <div className="bg-muted p-4 rounded-lg mt-4 overflow-auto">
-          <pre className="text-sm">
+          <pre className="text-base">
             {`1000 ASSETS
   1100 Current Assets
     1110 Cash & Bank
@@ -89,7 +89,7 @@ export default function AccountStructurePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Detailed Financial Analysis</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               You can analyze your finances at different levels. For example, you can look at total fabric costs or
               drill down to see costs for specific fabric types.
             </p>
@@ -97,7 +97,7 @@ export default function AccountStructurePage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Simplified Reporting</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Generate summary reports showing only parent accounts for a high-level overview, or detailed reports
               showing all sub-accounts for in-depth analysis.
             </p>
@@ -105,7 +105,7 @@ export default function AccountStructurePage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Better Organization</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               As your tailoring business grows and your chart of accounts expands, a hierarchical structure keeps
               everything organized and manageable.
             </p>
@@ -113,7 +113,7 @@ export default function AccountStructurePage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Easier Navigation</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               The tree view in the Finance Module makes it easy to navigate through your accounts, expanding and
               collapsing sections as needed.
             </p>
@@ -155,7 +155,7 @@ export default function AccountStructurePage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Layla runs a tailoring business that offers both custom garments and alterations. She structured her
             revenue accounts hierarchically: 4000 Revenue as the parent account, with 4100 Custom Tailoring and 4200
             Alterations as sub-accounts. Under Custom Tailoring, she created further sub-accounts: 4110 Wedding Attire,

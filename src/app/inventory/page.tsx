@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 export default function InventoryDocsPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Inventory Module</h1>
@@ -46,8 +46,8 @@ export default function InventoryDocsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Why Inventory Management Matters</h3>
-            <p className="text-sm mb-4">Effective inventory management is crucial for tailoring businesses to:</p>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <p className="text-base mb-4">Effective inventory management is crucial for tailoring businesses to:</p>
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>Ensure materials are available when needed for production</li>
               <li>Prevent overstocking and reduce capital tied up in inventory</li>
               <li>Minimize waste and optimize material utilization</li>
@@ -66,7 +66,7 @@ export default function InventoryDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Optimized Stock Levels</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Maintain ideal inventory levels to reduce costs while meeting demand
                   </p>
                 </div>
@@ -77,7 +77,7 @@ export default function InventoryDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Reduced Material Waste</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Track and minimize fabric waste through better planning
                   </p>
                 </div>
@@ -88,7 +88,7 @@ export default function InventoryDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Accurate Costing</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Precise material costing for better pricing and profitability
                   </p>
                 </div>
@@ -99,7 +99,7 @@ export default function InventoryDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Streamlined Operations</h4>
-                  <p className="text-sm text-muted-foreground">Efficient material handling and allocation processes</p>
+                  <p className="text-base text-muted-foreground">Efficient material handling and allocation processes</p>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function InventoryDocsPage() {
                 <CardTitle className="text-lg">Finance Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Automatic inventory valuation</li>
                   <li>Cost of goods sold calculation</li>
                   <li>Purchase order accounting</li>
@@ -130,7 +130,7 @@ export default function InventoryDocsPage() {
                 <CardTitle className="text-lg">Production Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Material requirements planning</li>
                   <li>Production order material allocation</li>
                   <li>Waste tracking and analysis</li>
@@ -144,7 +144,7 @@ export default function InventoryDocsPage() {
                 <CardTitle className="text-lg">Sales Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Real-time stock availability</li>
                   <li>Material reservation for orders</li>
                   <li>Delivery scheduling based on stock</li>
@@ -179,7 +179,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Fabric Tracking:</strong> Manage fabrics with detailed specifications
                 </li>
@@ -219,7 +219,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Goods Receipt:</strong> Record incoming materials
                 </li>
@@ -259,7 +259,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Material Allocation:</strong> Reserve materials for orders
                 </li>
@@ -299,7 +299,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Purchase Orders:</strong> Create and manage material orders
                 </li>
@@ -339,7 +339,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Multiple Locations:</strong> Manage inventory across locations
                 </li>
@@ -379,7 +379,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Stock Level Reports:</strong> Current inventory status
                 </li>
@@ -420,8 +420,8 @@ export default function InventoryDocsPage() {
                 <CardTitle className="text-lg">Inventory Audit</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-2">Comprehensive tools for physical inventory counting and reconciliation:</p>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <p className="text-base mb-2">Comprehensive tools for physical inventory counting and reconciliation:</p>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Cycle counting support</li>
                   <li>Mobile counting applications</li>
                   <li>Barcode scanning for counts</li>
@@ -436,8 +436,8 @@ export default function InventoryDocsPage() {
                 <CardTitle className="text-lg">Forecasting</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-2">Predictive tools for inventory planning:</p>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <p className="text-base mb-2">Predictive tools for inventory planning:</p>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Demand forecasting</li>
                   <li>Seasonal trend analysis</li>
                   <li>Safety stock calculation</li>
@@ -452,8 +452,8 @@ export default function InventoryDocsPage() {
                 <CardTitle className="text-lg">Barcode System</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-2">Comprehensive barcode management:</p>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <p className="text-base mb-2">Comprehensive barcode management:</p>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Barcode generation</li>
                   <li>Label printing</li>
                   <li>Mobile scanning</li>
@@ -471,8 +471,8 @@ export default function InventoryDocsPage() {
         <div className="space-y-4 mt-6">
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 1: Module Configuration</h3>
-            <p className="text-sm mb-2">Configure the basic settings for the Inventory Module:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Configure the basic settings for the Inventory Module:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>Navigate to System Settings {">"} Modules</li>
               <li>Enable the Inventory Module</li>
               <li>
@@ -490,8 +490,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 2: Set Up Inventory Locations</h3>
-            <p className="text-sm mb-2">Define the physical locations where your inventory is stored:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Define the physical locations where your inventory is stored:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>Navigate to Inventory {">"} Locations</li>
               <li>Click "Add Location" to create a new location</li>
               <li>
@@ -511,8 +511,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 3: Set Up Material Categories</h3>
-            <p className="text-sm mb-2">Create a structured categorization for your inventory items:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Create a structured categorization for your inventory items:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>
                 Navigate to Inventory {">"} Settings {">"} Categories
               </li>
@@ -533,8 +533,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 4: Add Inventory Items</h3>
-            <p className="text-sm mb-2">Create inventory items for all your materials:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Create inventory items for all your materials:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>Navigate to Inventory {">"} Items</li>
               <li>Click "Add Item" to create a new inventory item</li>
               <li>
@@ -558,8 +558,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 5: Set Up Suppliers</h3>
-            <p className="text-sm mb-2">Add your material suppliers to the system:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Add your material suppliers to the system:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>Navigate to Inventory {">"} Suppliers</li>
               <li>Click "Add Supplier" to create a new supplier</li>
               <li>
@@ -580,8 +580,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 6: Initial Stock Entry</h3>
-            <p className="text-sm mb-2">Record your current inventory levels:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Record your current inventory levels:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>Navigate to Inventory {">"} Stock Movements</li>
               <li>Click "Create Movement" to record initial stock</li>
               <li>Select "Adjustment" as the movement type</li>
@@ -596,8 +596,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 7: Conduct Physical Inventory</h3>
-            <p className="text-sm mb-2">Verify your initial stock entry with a physical count:</p>
-            <ol className="list-decimal list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Verify your initial stock entry with a physical count:</p>
+            <ol className="list-decimal list-inside space-y-1 text-base">
               <li>Navigate to Inventory {">"} Inventory Audit</li>
               <li>Click "New Inventory Count"</li>
               <li>Select "Full Inventory" as the count type</li>
@@ -611,8 +611,8 @@ export default function InventoryDocsPage() {
 
           <div className="border rounded-md p-4">
             <h3 className="text-lg font-medium mb-2">Step 8: Set Up Regular Processes</h3>
-            <p className="text-sm mb-2">Establish regular inventory processes:</p>
-            <ul className="list-disc list-inside space-y-1 text-sm">
+            <p className="text-base mb-2">Establish regular inventory processes:</p>
+            <ul className="list-disc list-inside space-y-1 text-base">
               <li>
                 <strong>Purchase Orders:</strong> Create a process for ordering materials
               </li>
@@ -647,7 +647,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Consistent Naming:</strong> Use a standardized naming convention for all inventory items
                 </li>
@@ -679,7 +679,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Real-time Recording:</strong> Record all stock movements as they happen
                 </li>
@@ -710,7 +710,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Cutting Optimization:</strong> Use cutting layout optimization to minimize waste
                 </li>
@@ -742,7 +742,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Demand Forecasting:</strong> Use historical data to forecast material needs
                 </li>
@@ -773,7 +773,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>ABC Analysis:</strong> Prioritize inventory management based on value
                 </li>
@@ -804,7 +804,7 @@ export default function InventoryDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Key Metrics:</strong> Track inventory turnover, accuracy, and other KPIs
                 </li>
@@ -833,7 +833,7 @@ export default function InventoryDocsPage() {
           <div className="space-y-4">
             <div className="border rounded-md p-4">
               <h4 className="font-medium mb-2">Fabric Management</h4>
-              <ul className="list-disc list-inside space-y-1 text-sm">
+              <ul className="list-disc list-inside space-y-1 text-base">
                 <li>
                   <strong>Fabric Testing:</strong> Test new fabrics before bulk purchasing
                 </li>
@@ -857,7 +857,7 @@ export default function InventoryDocsPage() {
 
             <div className="border rounded-md p-4">
               <h4 className="font-medium mb-2">Material Allocation</h4>
-              <ul className="list-disc list-inside space-y-1 text-sm">
+              <ul className="list-disc list-inside space-y-1 text-base">
                 <li>
                   <strong>Pattern Matching:</strong> Consider pattern matching requirements in material allocation
                 </li>
@@ -881,7 +881,7 @@ export default function InventoryDocsPage() {
 
             <div className="border rounded-md p-4">
               <h4 className="font-medium mb-2">Quality Control</h4>
-              <ul className="list-disc list-inside space-y-1 text-sm">
+              <ul className="list-disc list-inside space-y-1 text-base">
                 <li>
                   <strong>Material Testing:</strong> Test materials for shrinkage, colorfastness, etc.
                 </li>
@@ -913,7 +913,7 @@ export default function InventoryDocsPage() {
             <CardDescription>Manage your inventory items</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="text-sm mb-4">Learn how to create, manage, and organize your inventory items.</p>
+            <p className="text-base mb-4">Learn how to create, manage, and organize your inventory items.</p>
             <Button variant="outline" className="w-full" asChild>
               <Link href="/inventory/items">
                 View Documentation
@@ -929,7 +929,7 @@ export default function InventoryDocsPage() {
             <CardDescription>Track inventory transactions</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="text-sm mb-4">Learn how to record and manage all types of inventory movements.</p>
+            <p className="text-base mb-4">Learn how to record and manage all types of inventory movements.</p>
             <Button variant="outline" className="w-full" asChild>
               <Link href="/inventory/stock-movements">
                 View Documentation
@@ -945,7 +945,7 @@ export default function InventoryDocsPage() {
             <CardDescription>Optimize material usage</CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="text-sm mb-4">Learn how to allocate materials and reduce waste.</p>
+            <p className="text-base mb-4">Learn how to allocate materials and reduce waste.</p>
             <Button variant="outline" className="w-full" asChild>
               <Link href="/inventory/material-management">
                 View Documentation

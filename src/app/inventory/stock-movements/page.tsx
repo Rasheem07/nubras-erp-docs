@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function StockMovementsPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -47,7 +47,7 @@ export default function StockMovementsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>
                 <strong>Movement Types:</strong> Different categories of
                 inventory transactions
@@ -85,7 +85,7 @@ export default function StockMovementsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Inbound:</strong> Materials entering your inventory
                   (purchases, returns)
@@ -119,7 +119,7 @@ export default function StockMovementsPage() {
             Stock Movement Workflow
           </h3>
           <div className="border rounded-lg p-4">
-            <ol className="list-decimal list-inside space-y-3 text-sm">
+            <ol className="list-decimal list-inside space-y-3 text-base">
               <li>
                 <strong>Movement Initiation:</strong> Create a new stock
                 movement
@@ -192,20 +192,20 @@ export default function StockMovementsPage() {
               <CardTitle>Purchase Receipt</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record materials received from suppliers.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Receiving ordered materials</li>
                     <li>Processing supplier deliveries</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Purchase order reference</li>
                     <li>Supplier details</li>
                     <li>Delivery note number</li>
@@ -222,20 +222,20 @@ export default function StockMovementsPage() {
               <CardTitle>Return Receipt</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record materials returned by customers or from production.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Customer returns</li>
                     <li>Unused materials from production</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Original issue reference</li>
                     <li>Return reason</li>
                     <li>Condition assessment</li>
@@ -252,20 +252,20 @@ export default function StockMovementsPage() {
               <CardTitle>Production Return</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record excess materials returned from production.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Excess fabric from cutting</li>
                     <li>Unused materials from completed orders</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Production order reference</li>
                     <li>Original issue details</li>
                     <li>Returned quantities</li>
@@ -281,20 +281,20 @@ export default function StockMovementsPage() {
               <CardTitle>Initial Stock Entry</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record initial inventory or opening balances.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>System implementation</li>
                     <li>New inventory item setup</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Item details</li>
                     <li>Opening quantities</li>
                     <li>Valuation information</li>
@@ -313,20 +313,20 @@ export default function StockMovementsPage() {
               <CardTitle>Material Issue</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record materials issued for production or other uses.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Issuing materials to production</li>
                     <li>Allocating fabrics for cutting</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Production order reference</li>
                     <li>Destination department</li>
                     <li>Issued quantities</li>
@@ -342,20 +342,20 @@ export default function StockMovementsPage() {
               <CardTitle>Sales Issue</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record materials sold directly to customers.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Direct fabric sales</li>
                     <li>Retail material sales</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Sales order reference</li>
                     <li>Customer details</li>
                     <li>Sold quantities</li>
@@ -371,21 +371,21 @@ export default function StockMovementsPage() {
               <CardTitle>Supplier Return</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record materials returned to suppliers.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Defective materials</li>
                     <li>Incorrect deliveries</li>
                     <li>Excess materials</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Original purchase reference</li>
                     <li>Supplier details</li>
                     <li>Return reason</li>
@@ -402,21 +402,21 @@ export default function StockMovementsPage() {
               <CardTitle>Waste Disposal</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Record materials discarded as waste.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Unusable fabric scraps</li>
                     <li>Damaged materials</li>
                     <li>Obsolete inventory</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Waste category</li>
                     <li>Disposal method</li>
                     <li>Reason for disposal</li>
@@ -435,18 +435,18 @@ export default function StockMovementsPage() {
               <CardTitle>Stock Transfer</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Move materials between locations.</p>
+              <p className="text-base mb-3">Move materials between locations.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Moving stock between warehouses</li>
                     <li>Relocating materials within a location</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Source location</li>
                     <li>Destination location</li>
                     <li>Transfer reason</li>
@@ -462,19 +462,19 @@ export default function StockMovementsPage() {
               <CardTitle>Stock Adjustment</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Correct inventory discrepancies.</p>
+              <p className="text-base mb-3">Correct inventory discrepancies.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Physical count reconciliation</li>
                     <li>Correcting system errors</li>
                     <li>Recording inventory losses</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Adjustment reason</li>
                     <li>Current system quantity</li>
                     <li>Actual physical quantity</li>
@@ -491,21 +491,21 @@ export default function StockMovementsPage() {
               <CardTitle>Material Conversion</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Convert materials from one form to another.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Cutting fabric rolls into pieces</li>
                     <li>Repackaging materials</li>
                     <li>Changing units of measurement</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Source material details</li>
                     <li>Resulting material details</li>
                     <li>Conversion ratio</li>
@@ -521,18 +521,18 @@ export default function StockMovementsPage() {
               <CardTitle>Reservation</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Reserve materials for future use.</p>
+              <p className="text-base mb-3">Reserve materials for future use.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">When to use:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">When to use:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Reserving materials for specific orders</li>
                     <li>Setting aside customer-provided materials</li>
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Key information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Key information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Order reference</li>
                     <li>Customer details</li>
                     <li>Reserved quantities</li>
@@ -570,20 +570,20 @@ export default function StockMovementsPage() {
               <CardTitle>Custom Abaya Production</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Managing materials for a custom abaya order.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Scenario:</p>
-                  <p className="text-sm">
+                  <p className="text-base font-medium">Scenario:</p>
+                  <p className="text-base">
                     A customer orders a custom embroidered abaya requiring
                     specific black silk fabric, gold thread, and custom beading.
                   </p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Stock Movements:</p>
-                  <ol className="list-decimal list-inside text-sm">
+                  <p className="text-base font-medium">Stock Movements:</p>
+                  <ol className="list-decimal list-inside text-base">
                     <li>
                       <strong>Material Reservation:</strong> Reserve 3 meters of
                       premium black silk, 2 spools of gold thread, and 50g of
@@ -604,8 +604,8 @@ export default function StockMovementsPage() {
                   </ol>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Benefits:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Benefits:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Accurate tracking of premium materials</li>
                     <li>Clear accountability for material usage</li>
                     <li>Precise costing of materials used</li>
@@ -621,20 +621,20 @@ export default function StockMovementsPage() {
               <CardTitle>Seasonal Inventory Relocation</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">
+              <p className="text-base mb-3">
                 Reorganizing inventory for seasonal demand.
               </p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Scenario:</p>
-                  <p className="text-sm">
+                  <p className="text-base font-medium">Scenario:</p>
+                  <p className="text-base">
                     A tailoring shop needs to reorganize inventory to prioritize
                     Ramadan and Eid collection materials.
                   </p>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Stock Movements:</p>
-                  <ol className="list-decimal list-inside text-sm">
+                  <p className="text-base font-medium">Stock Movements:</p>
+                  <ol className="list-decimal list-inside text-base">
                     <li>
                       <strong>Stock Transfer:</strong> Move festive fabrics from
                       bulk storage to primary picking area
@@ -654,8 +654,8 @@ export default function StockMovementsPage() {
                   </ol>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Benefits:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Benefits:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Optimized storage layout for seasonal demand</li>
                     <li>Improved picking efficiency for high-demand items</li>
                     <li>Better space utilization</li>
@@ -673,8 +673,8 @@ export default function StockMovementsPage() {
           </h4>
           <div className="space-y-4">
             <div>
-              <h5 className="text-sm font-medium">Business Profile</h5>
-              <p className="text-sm">
+              <h5 className="text-base font-medium">Business Profile</h5>
+              <p className="text-base">
                 A tailoring business with a main production facility, two retail
                 locations, and a warehouse. The business specializes in
                 traditional and modern garments, with both ready-to-wear and
@@ -683,10 +683,10 @@ export default function StockMovementsPage() {
             </div>
 
             <div>
-              <h5 className="text-sm font-medium">
+              <h5 className="text-base font-medium">
                 Inventory Movement Challenges
               </h5>
-              <ul className="list-disc list-inside text-sm">
+              <ul className="list-disc list-inside text-base">
                 <li>
                   Managing fabric and material flow between multiple locations
                 </li>
@@ -700,8 +700,8 @@ export default function StockMovementsPage() {
             </div>
 
             <div>
-              <h5 className="text-sm font-medium">Stock Movement Solution</h5>
-              <ol className="list-decimal list-inside text-sm">
+              <h5 className="text-base font-medium">Stock Movement Solution</h5>
+              <ol className="list-decimal list-inside text-base">
                 <li>
                   <strong>Centralized Receiving:</strong> All materials received
                   at warehouse with purchase receipts
@@ -730,8 +730,8 @@ export default function StockMovementsPage() {
             </div>
 
             <div>
-              <h5 className="text-sm font-medium">Results</h5>
-              <ul className="list-disc list-inside text-sm">
+              <h5 className="text-base font-medium">Results</h5>
+              <ul className="list-disc list-inside text-base">
                 <li>Inventory accuracy improved from 82% to 97%</li>
                 <li>Material waste reduced by 15%</li>
                 <li>

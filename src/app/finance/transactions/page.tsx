@@ -24,7 +24,7 @@ export default function FinanceTransactionsPage() {
               <CardTitle>Invoices</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Create professional invoices</li>
                 <li>Track payment status</li>
                 <li>Send invoices to customers</li>
@@ -32,7 +32,7 @@ export default function FinanceTransactionsPage() {
                 <li>View invoice aging reports</li>
               </ul>
               <div className="mt-4">
-                <Link href="/finance/transactions/invoices" className="text-primary hover:underline text-sm">
+                <Link href="/finance/transactions/invoices" className="text-primary hover:underline text-base">
                   Learn more about invoices →
                 </Link>
               </div>
@@ -44,7 +44,7 @@ export default function FinanceTransactionsPage() {
               <CardTitle>Expenses</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Record business expenses</li>
                 <li>Categorize by expense type</li>
                 <li>Attach receipts and documents</li>
@@ -52,7 +52,7 @@ export default function FinanceTransactionsPage() {
                 <li>Manage recurring expenses</li>
               </ul>
               <div className="mt-4">
-                <Link href="/finance/transactions/expenses" className="text-primary hover:underline text-sm">
+                <Link href="/finance/transactions/expenses" className="text-primary hover:underline text-base">
                   Learn more about expenses →
                 </Link>
               </div>
@@ -64,7 +64,7 @@ export default function FinanceTransactionsPage() {
               <CardTitle>Journal Entries</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Create manual accounting entries</li>
                 <li>Record adjustments and corrections</li>
                 <li>Enter opening balances</li>
@@ -74,7 +74,7 @@ export default function FinanceTransactionsPage() {
               <div className="mt-4">
                 <Link
                   href="/finance/transactions/journal-entries"
-                  className="text-primary hover:underline text-sm"
+                  className="text-primary hover:underline text-base"
                 >
                   Learn more about journal entries →
                 </Link>
@@ -98,7 +98,7 @@ export default function FinanceTransactionsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-6">
           <h3 className="font-medium">Invoice Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Mohammed just completed a custom suit for a client. He goes to the Invoices section and creates a new
             invoice. He adds line items for the suit (AED 2,000), alterations (AED 200), and premium buttons (AED 150).
             The system automatically calculates 5% VAT. He adds a note thanking the customer for their business and
@@ -122,7 +122,7 @@ export default function FinanceTransactionsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-6">
           <h3 className="font-medium">Expense Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Aisha just purchased new fabric for an upcoming project. She goes to the Expenses section and clicks
             'Record Expense'. She selects 'Fabric Costs' as the category, enters AED 1,200 as the amount, and selects
             'Credit Card' as the payment method. She adds 'Premium Textiles LLC' as the supplier, takes a photo of the
@@ -148,7 +148,7 @@ export default function FinanceTransactionsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-6">
           <h3 className="font-medium">Journal Entry Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "At the end of the month, Khalid needs to record depreciation on his sewing equipment. He creates a journal
             entry with the date of the last day of the month. He debits 'Depreciation Expense' for AED 500 and credits
             'Accumulated Depreciation' for AED 500. He adds a description 'Monthly depreciation of sewing equipment' and

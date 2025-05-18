@@ -21,7 +21,7 @@ export default function ExpensesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Materials</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Fabric (wool, cotton, silk, synthetic)</li>
               <li>Thread and needles</li>
               <li>Buttons, zippers, and fasteners</li>
@@ -32,7 +32,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Equipment</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Sewing machines and maintenance</li>
               <li>Cutting tools and shears</li>
               <li>Pressing equipment</li>
@@ -43,7 +43,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Overhead</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Shop rent or mortgage</li>
               <li>Utilities (electricity, water, internet)</li>
               <li>Insurance (liability, property)</li>
@@ -54,7 +54,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Labor</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Employee wages and benefits</li>
               <li>Contractor payments</li>
               <li>Training and education</li>
@@ -65,7 +65,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Marketing</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Advertising (online, print)</li>
               <li>Website maintenance</li>
               <li>Social media promotion</li>
@@ -76,7 +76,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Transportation</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>Delivery costs</li>
               <li>Business travel</li>
               <li>Vehicle expenses</li>
@@ -107,7 +107,7 @@ export default function ExpensesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Mobile Receipt Capture</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             The Finance Module includes a mobile app feature that allows you to take photos of receipts on the go. The
             system can extract key information from the receipt image, making expense recording faster and more
             accurate.
@@ -150,7 +150,7 @@ export default function ExpensesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Expense by Category</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               See how your expenses are distributed across different categories. This helps identify areas where costs
               are highest and might need attention.
             </p>
@@ -158,7 +158,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Expense Trends</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Track how your expenses change over time. Identify seasonal patterns or unexpected increases that require
               investigation.
             </p>
@@ -166,7 +166,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Expense by Vendor</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               See how much you're spending with each supplier. This can help with negotiating better terms or
               identifying opportunities to consolidate purchases.
             </p>
@@ -174,7 +174,7 @@ export default function ExpensesPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Budget vs. Actual</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Compare your actual expenses against your budget to see if you're staying on track with your financial
               plans.
             </p>
@@ -240,7 +240,7 @@ export default function ExpensesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Ahmed runs a tailoring shop with five employees. He's set up expense categories that align with his
             business needs: Premium Fabrics, Standard Fabrics, Notions, Equipment, Shop Rent, Utilities, Employee Wages,
             and Marketing. When he purchases silk fabric from his supplier, he immediately takes a photo of the receipt

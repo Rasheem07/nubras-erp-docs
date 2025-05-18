@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function InventoryPurchasingPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -38,7 +38,7 @@ export default function InventoryPurchasingPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>
                 <strong>Purchase Requisition:</strong> Internal request for materials
               </li>
@@ -71,7 +71,7 @@ export default function InventoryPurchasingPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ol className="list-decimal list-inside space-y-2 text-sm">
+              <ol className="list-decimal list-inside space-y-2 text-base">
                 <li>
                   <strong>Identify Need:</strong> Determine material requirements
                   <ul className="list-disc list-inside ml-6 mt-1">
@@ -131,8 +131,8 @@ export default function InventoryPurchasingPage() {
             <h4 className="font-medium mb-2">Accessing Purchasing Features</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Main Navigation</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Main Navigation</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     Inventory {">"} Purchasing
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -149,8 +149,8 @@ export default function InventoryPurchasingPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Quick Actions</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Quick Actions</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Create New Purchase Order</li>
                   <li>Record Goods Receipt</li>
                   <li>Create Supplier</li>
@@ -162,7 +162,7 @@ export default function InventoryPurchasingPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Purchasing Dashboard:</h5>
+              <h5 className="text-base font-medium">Purchasing Dashboard:</h5>
               <p className="text-xs mt-1">
                 The purchasing dashboard provides a quick overview of your purchasing activities:
               </p>
@@ -198,7 +198,7 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Cost Control</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Centralized purchasing</li>
                   <li>Price comparison tools</li>
                   <li>Spend analysis</li>
@@ -214,7 +214,7 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Efficiency</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Automated reordering</li>
                   <li>Streamlined workflows</li>
                   <li>Template-based ordering</li>
@@ -230,7 +230,7 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Visibility</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Real-time order status</li>
                   <li>Comprehensive audit trail</li>
                   <li>Supplier performance metrics</li>
@@ -268,7 +268,7 @@ export default function InventoryPurchasingPage() {
           <h3 className="text-xl font-semibold mb-3">Creating Purchase Orders</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Purchase Order Creation Process</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 Access the Purchase Order Form:
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -345,11 +345,11 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Standard Purchase Order</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">One-time order for specific items.</p>
+                <p className="text-base mb-3">One-time order for specific items.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Characteristics:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Characteristics:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Single delivery date</li>
                       <li>Specific quantities</li>
                       <li>Fixed pricing</li>
@@ -357,8 +357,8 @@ export default function InventoryPurchasingPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Best For:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Best For:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>One-time purchases</li>
                       <li>Specific project needs</li>
                       <li>Non-recurring items</li>
@@ -374,11 +374,11 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Blanket Purchase Order</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Long-term agreement for multiple deliveries.</p>
+                <p className="text-base mb-3">Long-term agreement for multiple deliveries.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Characteristics:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Characteristics:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Extended time period</li>
                       <li>Multiple scheduled deliveries</li>
                       <li>Predetermined pricing</li>
@@ -386,8 +386,8 @@ export default function InventoryPurchasingPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Best For:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Best For:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Regular recurring needs</li>
                       <li>Volume discount opportunities</li>
                       <li>Stable pricing requirements</li>
@@ -406,9 +406,9 @@ export default function InventoryPurchasingPage() {
             <h4 className="font-medium mb-2">Managing the PO Lifecycle</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">PO Status Tracking</h5>
-                <p className="text-sm">Monitor purchase orders through their lifecycle:</p>
-                <ul className="list-disc list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">PO Status Tracking</h5>
+                <p className="text-base">Monitor purchase orders through their lifecycle:</p>
+                <ul className="list-disc list-inside text-base mt-2">
                   <li>
                     <strong>Draft:</strong> Initial creation, not yet submitted
                   </li>
@@ -446,9 +446,9 @@ export default function InventoryPurchasingPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">PO Modifications</h5>
-                <p className="text-sm">Making changes to existing purchase orders:</p>
-                <ol className="list-decimal list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">PO Modifications</h5>
+                <p className="text-base">Making changes to existing purchase orders:</p>
+                <ol className="list-decimal list-inside text-base mt-2">
                   <li>Navigate to the PO you need to modify</li>
                   <li>Click "Edit" or "Create Change Order"</li>
                   <li>
@@ -495,7 +495,7 @@ export default function InventoryPurchasingPage() {
           <h3 className="text-xl font-semibold mb-3">Receiving Process</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Step-by-Step Receiving Workflow</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 Prepare for Receipt:
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -573,11 +573,11 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Partial Deliveries</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">When suppliers deliver only part of an order.</p>
+                <p className="text-base mb-3">When suppliers deliver only part of an order.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Select the related PO</li>
                       <li>Enter actual quantities received</li>
                       <li>Leave remaining quantities open</li>
@@ -586,8 +586,8 @@ export default function InventoryPurchasingPage() {
                     </ol>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">System Actions:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">System Actions:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Updates inventory for received items</li>
                       <li>Marks PO as "Partially Received"</li>
                       <li>Maintains open quantities for future receipts</li>
@@ -603,11 +603,11 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Quality Issues</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">When received items have quality problems.</p>
+                <p className="text-base mb-3">When received items have quality problems.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Document specific quality issues</li>
                       <li>Take photos if applicable</li>
                       <li>
@@ -624,8 +624,8 @@ export default function InventoryPurchasingPage() {
                     </ol>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">System Actions:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">System Actions:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Flags affected inventory</li>
                       <li>Updates supplier quality metrics</li>
                       <li>Tracks resolution process</li>
@@ -665,9 +665,9 @@ export default function InventoryPurchasingPage() {
             <h4 className="font-medium mb-2">Managing Supplier Records</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Supplier Setup</h5>
-                <p className="text-sm">Creating and maintaining supplier records:</p>
-                <ol className="list-decimal list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">Supplier Setup</h5>
+                <p className="text-base">Creating and maintaining supplier records:</p>
+                <ol className="list-decimal list-inside text-base mt-2">
                   <li>
                     Navigate to Inventory {">"} Purchasing {">"} Suppliers
                   </li>
@@ -723,9 +723,9 @@ export default function InventoryPurchasingPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Supplier Categories</h5>
-                <p className="text-sm">Organizing suppliers for better management:</p>
-                <ul className="list-disc list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">Supplier Categories</h5>
+                <p className="text-base">Organizing suppliers for better management:</p>
+                <ul className="list-disc list-inside text-base mt-2">
                   <li>
                     <strong>By Material Type:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -758,11 +758,11 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Performance Metrics</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Key indicators for measuring supplier performance.</p>
+                <p className="text-base mb-3">Key indicators for measuring supplier performance.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Delivery Performance:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Delivery Performance:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>On-time delivery rate</li>
                       <li>Lead time consistency</li>
                       <li>Order fill rate</li>
@@ -770,8 +770,8 @@ export default function InventoryPurchasingPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Quality Performance:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Quality Performance:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Defect rate</li>
                       <li>Inspection pass rate</li>
                       <li>Return rate</li>
@@ -787,11 +787,11 @@ export default function InventoryPurchasingPage() {
                 <CardTitle>Performance Improvement</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Addressing supplier performance issues.</p>
+                <p className="text-base mb-3">Addressing supplier performance issues.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Issue Management:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Issue Management:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Identify performance gaps</li>
                       <li>Document specific issues</li>
                       <li>Communicate concerns to supplier</li>
@@ -800,8 +800,8 @@ export default function InventoryPurchasingPage() {
                     </ol>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Improvement Plans:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Improvement Plans:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Collaborative improvement goals</li>
                       <li>Specific action items</li>
                       <li>Timeline and milestones</li>

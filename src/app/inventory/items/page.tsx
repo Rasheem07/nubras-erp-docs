@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function InventoryItemsPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -38,7 +38,7 @@ export default function InventoryItemsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>
                 <strong>Item Master:</strong> Central repository of all item information
               </li>
@@ -71,7 +71,7 @@ export default function InventoryItemsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Basic Information:</strong>
                   <ul className="list-disc list-inside ml-6 mt-1">
@@ -119,8 +119,8 @@ export default function InventoryItemsPage() {
             <h4 className="font-medium mb-2">Common Item Categories in Tailoring</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Raw Materials</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Raw Materials</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     <strong>Fabrics:</strong> Primary materials used for garment construction
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -151,8 +151,8 @@ export default function InventoryItemsPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Notions and Trims</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Notions and Trims</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     <strong>Fasteners:</strong> Items used to close or secure garments
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -193,11 +193,11 @@ export default function InventoryItemsPage() {
               <CardTitle>Creating Items</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Step-by-step process for adding new items.</p>
+              <p className="text-base mb-3">Step-by-step process for adding new items.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Basic Process:</p>
-                  <ol className="list-decimal list-inside text-sm">
+                  <p className="text-base font-medium">Basic Process:</p>
+                  <ol className="list-decimal list-inside text-base">
                     <li>Navigate to Inventory {">"} Items</li>
                     <li>Click "Create Item"</li>
                     <li>Enter basic information</li>
@@ -209,8 +209,8 @@ export default function InventoryItemsPage() {
                   </ol>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Required Information:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Required Information:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Item code (unique identifier)</li>
                     <li>Item name and description</li>
                     <li>Item category</li>
@@ -228,11 +228,11 @@ export default function InventoryItemsPage() {
               <CardTitle>Item Attributes</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Defining characteristics of inventory items.</p>
+              <p className="text-base mb-3">Defining characteristics of inventory items.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Common Attributes:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Common Attributes:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Material composition</li>
                     <li>Color and pattern</li>
                     <li>Dimensions and weight</li>
@@ -242,8 +242,8 @@ export default function InventoryItemsPage() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Tailoring-Specific Attributes:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Tailoring-Specific Attributes:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Fabric weight (GSM)</li>
                     <li>Fabric width</li>
                     <li>Fabric stretch percentage</li>
@@ -263,8 +263,8 @@ export default function InventoryItemsPage() {
             <h4 className="font-medium mb-2">Creating a Structured Fabric Catalog</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Business Context</h5>
-                <p className="text-sm">
+                <h5 className="text-base font-medium">Business Context</h5>
+                <p className="text-base">
                   Al Manar Tailoring, a high-end tailoring business in Dubai, needed to organize their extensive fabric
                   inventory with over 500 different fabrics from various suppliers. They wanted to improve inventory
                   accuracy, streamline purchasing, and enhance the customer selection experience.
@@ -272,8 +272,8 @@ export default function InventoryItemsPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Implementation Approach</h5>
-                <ol className="list-decimal list-inside text-sm">
+                <h5 className="text-base font-medium">Implementation Approach</h5>
+                <ol className="list-decimal list-inside text-base">
                   <li>
                     <strong>Category Structure Development:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -324,8 +324,8 @@ export default function InventoryItemsPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Results</h5>
-                <ul className="list-disc list-inside text-sm">
+                <h5 className="text-base font-medium">Results</h5>
+                <ul className="list-disc list-inside text-base">
                   <li>Reduced time to locate specific fabrics by 75%</li>
                   <li>Improved inventory accuracy from 82% to 96%</li>
                   <li>Decreased stockouts of popular fabrics by 60%</li>
@@ -337,7 +337,7 @@ export default function InventoryItemsPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Implementation Tips:</h5>
+              <h5 className="text-base font-medium">Implementation Tips:</h5>
               <ul className="list-disc list-inside text-xs mt-2">
                 <li>
                   <strong>Start Small:</strong> Begin with your most important or frequently used items
@@ -385,11 +385,11 @@ export default function InventoryItemsPage() {
               <CardTitle>Item Maintenance</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Keeping item information current and accurate.</p>
+              <p className="text-base mb-3">Keeping item information current and accurate.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Regular Updates:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Regular Updates:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Price and cost changes</li>
                     <li>Specification updates</li>
                     <li>Supplier information</li>
@@ -398,8 +398,8 @@ export default function InventoryItemsPage() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Lifecycle Management:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Lifecycle Management:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>New item introduction</li>
                     <li>Active item maintenance</li>
                     <li>Phase-out planning</li>
@@ -416,11 +416,11 @@ export default function InventoryItemsPage() {
               <CardTitle>Item History</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Tracking changes and activities for items.</p>
+              <p className="text-base mb-3">Tracking changes and activities for items.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">History Tracking:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">History Tracking:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Data change history</li>
                     <li>Transaction records</li>
                     <li>Price history</li>
@@ -429,8 +429,8 @@ export default function InventoryItemsPage() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Audit Trail:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Audit Trail:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Who made changes</li>
                     <li>When changes occurred</li>
                     <li>What was changed</li>
@@ -447,7 +447,7 @@ export default function InventoryItemsPage() {
           <h3 className="text-xl font-semibold mb-3">Workflow: Managing Seasonal Fabric Transitions</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Step-by-Step Process for Seasonal Inventory Management</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 <strong>Inventory Review:</strong> Analyze current inventory status
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -503,7 +503,7 @@ export default function InventoryItemsPage() {
             </ol>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Seasonal Transition Timeline:</h5>
+              <h5 className="text-base font-medium">Seasonal Transition Timeline:</h5>
               <p className="text-xs mt-1">Typical timeline for managing seasonal fabric transitions:</p>
               <ul className="list-disc list-inside text-xs mt-2">
                 <li>
@@ -553,7 +553,7 @@ export default function InventoryItemsPage() {
               <CardTitle>Item Setup Best Practices</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside text-sm">
+              <ul className="list-disc list-inside text-base">
                 <li>Develop a consistent item coding system</li>
                 <li>Create a logical category hierarchy</li>
                 <li>Define standard attributes by category</li>
@@ -571,7 +571,7 @@ export default function InventoryItemsPage() {
               <CardTitle>Item Management Best Practices</CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside text-sm">
+              <ul className="list-disc list-inside text-base">
                 <li>Regularly review and update item data</li>
                 <li>Audit item accuracy periodically</li>
                 <li>Archive obsolete items rather than deleting</li>
@@ -591,8 +591,8 @@ export default function InventoryItemsPage() {
             <h4 className="font-medium mb-2">Steps to Implement Effective Item Management</h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <h5 className="text-sm font-medium">Planning Phase</h5>
-                <ul className="list-disc list-inside text-sm">
+                <h5 className="text-base font-medium">Planning Phase</h5>
+                <ul className="list-disc list-inside text-base">
                   <li>Analyze current inventory and categorization</li>
                   <li>Define item categories and attributes</li>
                   <li>Develop item coding system</li>
@@ -603,8 +603,8 @@ export default function InventoryItemsPage() {
                 </ul>
               </div>
               <div>
-                <h5 className="text-sm font-medium">Implementation Phase</h5>
-                <ul className="list-disc list-inside text-sm">
+                <h5 className="text-base font-medium">Implementation Phase</h5>
+                <ul className="list-disc list-inside text-base">
                   <li>Configure system settings</li>
                   <li>Set up categories and attributes</li>
                   <li>Create item templates</li>
@@ -616,8 +616,8 @@ export default function InventoryItemsPage() {
               </div>
             </div>
             <div className="mt-4">
-              <h5 className="text-sm font-medium">Ongoing Management</h5>
-              <ul className="list-disc list-inside text-sm">
+              <h5 className="text-base font-medium">Ongoing Management</h5>
+              <ul className="list-disc list-inside text-base">
                 <li>Schedule regular data reviews</li>
                 <li>Implement data governance processes</li>
                 <li>Monitor item usage and performance</li>

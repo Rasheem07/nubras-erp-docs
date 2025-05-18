@@ -22,7 +22,7 @@ export default function FinancialForecastingPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Strategic Planning</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Forecasts provide a financial roadmap for your business, helping you set realistic goals and develop
               strategies to achieve them. For tailoring businesses, this might include expansion plans, new service
               offerings, or equipment investments.
@@ -31,7 +31,7 @@ export default function FinancialForecastingPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Cash Flow Management</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Predict future cash surpluses and shortfalls, allowing you to plan for seasonal fluctuations, large
               purchases, or potential cash crunches. This is especially important for tailoring businesses with seasonal
               demand patterns.
@@ -40,7 +40,7 @@ export default function FinancialForecastingPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Resource Allocation</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Make informed decisions about hiring, equipment purchases, and material inventory based on projected
               demand and financial capacity. This helps optimize your workshop's productivity and efficiency.
             </p>
@@ -48,7 +48,7 @@ export default function FinancialForecastingPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Risk Management</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Identify potential financial risks and develop contingency plans. For example, forecasting can help you
               prepare for fabric price increases, changes in customer demand, or unexpected equipment repairs.
             </p>
@@ -82,7 +82,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Tailoring-Specific Revenue Categories</h3>
-          <p className="text-sm mt-2">Configure revenue categories that reflect your business:</p>
+          <p className="text-base mt-2">Configure revenue categories that reflect your business:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Custom garment creation</li>
             <li>Alterations and repairs</li>
@@ -109,7 +109,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Expense Forecasting Methods</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>
               <span className="font-medium">Fixed Expenses:</span> Consistent costs like rent, insurance, or equipment
               leases
@@ -146,7 +146,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Cash Flow Timing Factors</h3>
-          <p className="text-sm mt-2">Consider these tailoring-specific factors when forecasting cash flow timing:</p>
+          <p className="text-base mt-2">Consider these tailoring-specific factors when forecasting cash flow timing:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Customer deposits for custom orders (typically 50% upfront)</li>
             <li>Final payments upon garment completion</li>
@@ -190,7 +190,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">When to Use Trend Analysis</h3>
-          <p className="text-sm mt-2">Trend analysis works best when:</p>
+          <p className="text-base mt-2">Trend analysis works best when:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>You have at least 2-3 years of historical data</li>
             <li>Your business has shown consistent patterns</li>
@@ -215,7 +215,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Common Seasonal Patterns in Tailoring</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Wedding season peaks (often spring and fall)</li>
             <li>Holiday formal wear demand (Eid, Christmas, New Year)</li>
             <li>Back-to-school uniform alterations</li>
@@ -240,7 +240,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Example Drivers for Tailoring Businesses</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Number of custom garment orders</li>
             <li>Average price per garment</li>
             <li>Number of alteration services</li>
@@ -268,7 +268,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Common Scenarios to Model</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Base Case: Most likely outcome based on current trends</li>
             <li>Growth Scenario: Increased marketing leads to higher customer acquisition</li>
             <li>Expansion Scenario: Adding new services or locations</li>
@@ -297,7 +297,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Variance Analysis</h3>
-          <p className="text-sm mt-2">When analyzing variances, consider these factors:</p>
+          <p className="text-base mt-2">When analyzing variances, consider these factors:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Was the variance due to internal factors (within your control) or external factors?</li>
             <li>Is this a one-time variance or part of a pattern?</li>
@@ -321,7 +321,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">When to Revise Forecasts</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Significant variance between actual and forecast results</li>
             <li>Major changes in business conditions</li>
             <li>New opportunities or threats emerge</li>
@@ -367,7 +367,7 @@ export default function FinancialForecastingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Layla runs a tailoring business specializing in wedding and formal wear. She uses the Financial Forecasting
             tools to plan for the highly seasonal nature of her business. At the beginning of each year, she creates a
             revenue forecast broken down by month, using historical data that shows peak demand during wedding seasons

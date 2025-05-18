@@ -26,7 +26,7 @@ export default function StandardReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>
               <span className="font-medium">Revenue:</span> Income from tailoring services, alterations, fabric sales,
               etc.
@@ -66,7 +66,7 @@ export default function StandardReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>
               <span className="font-medium">Assets:</span> Cash, accounts receivable, inventory, equipment, etc.
             </li>
@@ -101,7 +101,7 @@ export default function StandardReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Key Components</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>
               <span className="font-medium">Operating Activities:</span> Cash from day-to-day business operations
             </li>
@@ -142,7 +142,7 @@ export default function StandardReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Aging Categories</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Current (not yet due)</li>
             <li>1-30 days overdue</li>
             <li>31-60 days overdue</li>
@@ -191,7 +191,7 @@ export default function StandardReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Common Service Categories for Tailoring</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Custom garment creation</li>
             <li>Alterations and repairs</li>
             <li>Wedding and formal wear</li>
@@ -274,7 +274,7 @@ export default function StandardReportsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Regular Review Schedule</h3>
-            <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+            <ul className="list-disc list-inside space-y-1 mt-2 text-base">
               <li>
                 <span className="font-medium">Daily:</span> Check cash position and sales
               </li>
@@ -295,7 +295,7 @@ export default function StandardReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Report Customization</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               The Finance Module allows you to customize reports to focus on the information most relevant to your
               tailoring business:
             </p>
@@ -311,7 +311,7 @@ export default function StandardReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Aisha runs a tailoring business specializing in traditional and modern clothing. At the end of each month,
             she generates an Income Statement to review her profitability. She noticed that while her overall revenue
             was increasing, her profit margin was decreasing. By drilling down into her Cost of Goods Sold, she

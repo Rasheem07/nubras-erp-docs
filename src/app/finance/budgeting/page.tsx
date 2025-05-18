@@ -20,7 +20,7 @@ export default function BudgetingPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Financial Control</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               A budget gives you greater control over your finances by helping you track and manage income and expenses.
               This prevents overspending and ensures you have funds for essential business needs.
             </p>
@@ -28,7 +28,7 @@ export default function BudgetingPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Goal Setting</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Budgeting helps you set concrete financial goals for your tailoring business, such as increasing revenue
               by a certain percentage or reducing specific costs.
             </p>
@@ -36,7 +36,7 @@ export default function BudgetingPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Decision Making</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               With a budget in place, you can make more informed decisions about investments, hiring, expansion, or
               other business opportunities based on your financial capacity.
             </p>
@@ -44,7 +44,7 @@ export default function BudgetingPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Performance Measurement</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Comparing actual results to your budget helps you evaluate your business performance and identify areas
               that need attention or improvement.
             </p>
@@ -70,7 +70,7 @@ export default function BudgetingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Budget Creation Methods</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             The Finance Module offers several methods to help you create realistic budgets:
           </p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
@@ -104,7 +104,7 @@ export default function BudgetingPage() {
         <p className="mt-2">Plan your expected income from various sources:</p>
 
         <div className="bg-muted p-4 rounded-lg mt-4">
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Custom tailoring services by category (formal wear, casual wear, etc.)</li>
             <li>Alterations and repairs</li>
             <li>Fabric and accessory sales</li>
@@ -122,7 +122,7 @@ export default function BudgetingPage() {
         <p className="mt-2">Budget for the direct costs associated with your services:</p>
 
         <div className="bg-muted p-4 rounded-lg mt-4">
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Fabric purchases by type</li>
             <li>Notions and accessories (buttons, zippers, thread, etc.)</li>
             <li>Direct labor costs (tailors, seamstresses)</li>
@@ -140,7 +140,7 @@ export default function BudgetingPage() {
         <p className="mt-2">Plan for your ongoing business expenses:</p>
 
         <div className="bg-muted p-4 rounded-lg mt-4">
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Rent and utilities for your shop</li>
             <li>Equipment maintenance and repairs</li>
             <li>Administrative staff wages</li>
@@ -159,7 +159,7 @@ export default function BudgetingPage() {
         <p className="mt-2">Plan for major purchases and investments:</p>
 
         <div className="bg-muted p-4 rounded-lg mt-4">
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>New sewing or cutting equipment</li>
             <li>Shop renovations or expansions</li>
             <li>Computer systems or software</li>
@@ -190,7 +190,7 @@ export default function BudgetingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Understanding Variances</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Variances are the differences between your budgeted amounts and actual results:
           </p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
@@ -224,7 +224,7 @@ export default function BudgetingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">When to Revise a Budget</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Significant changes in business conditions (e.g., economic downturn)</li>
             <li>Major unexpected expenses or revenue opportunities</li>
             <li>Changes in business strategy or focus</li>
@@ -269,7 +269,7 @@ export default function BudgetingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Fatima runs a tailoring business with seven employees. At the beginning of each year, she creates an annual
             budget broken down by month. For her revenue budget, she analyzes the previous three years of sales data to
             identify seasonal patterns, then adjusts for planned marketing initiatives and price changes. For her

@@ -22,7 +22,7 @@ export default function BankStatementImportsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Time Savings</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Eliminate manual data entry of bank transactions, saving hours of bookkeeping time each month. What might
               take hours manually can be completed in minutes.
             </p>
@@ -30,7 +30,7 @@ export default function BankStatementImportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Accuracy</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Reduce human error by importing transaction data directly from your bank. This ensures your financial
               records precisely match your actual bank activity.
             </p>
@@ -38,7 +38,7 @@ export default function BankStatementImportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Completeness</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Capture all transactions, including bank fees, interest, and other items that might be overlooked during
               manual entry. Nothing falls through the cracks.
             </p>
@@ -46,7 +46,7 @@ export default function BankStatementImportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Efficiency</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Intelligent matching algorithms automatically link imported transactions to existing records, streamlining
               the reconciliation process and reducing duplicate entries.
             </p>
@@ -71,7 +71,7 @@ export default function BankStatementImportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Security Note</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             The system uses secure, read-only connections to your bank. Your banking credentials are encrypted and never
             stored in our database. The connection uses the same security standards as online banking.
           </p>
@@ -149,7 +149,7 @@ export default function BankStatementImportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Automatic Matching Criteria</h3>
-          <p className="text-sm mt-2">The system uses several factors to suggest matches:</p>
+          <p className="text-base mt-2">The system uses several factors to suggest matches:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Transaction amount (exact match)</li>
             <li>Transaction date (within a configurable range)</li>
@@ -173,7 +173,7 @@ export default function BankStatementImportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Rules-Based Categorization</h3>
-          <p className="text-sm mt-2">Create rules to automatically categorize recurring transactions:</p>
+          <p className="text-base mt-2">Create rules to automatically categorize recurring transactions:</p>
           <ol className="list-decimal list-inside space-y-1 mt-2 text-xs">
             <li>Go to Finance &gt; Banking &gt; Categorization Rules</li>
             <li>Click "Add Rule"</li>
@@ -205,7 +205,7 @@ export default function BankStatementImportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Handling Discrepancies</h3>
-          <p className="text-sm mt-2">If your reconciliation doesn't balance:</p>
+          <p className="text-base mt-2">If your reconciliation doesn't balance:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Check for transactions on the statement that aren't in your system</li>
             <li>Look for transactions in your system that aren't on the statement</li>
@@ -294,7 +294,7 @@ export default function BankStatementImportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Mohammed runs a tailoring business with multiple bank accounts. Previously, his bookkeeper spent nearly two
             full days each month manually entering bank transactions and reconciling accounts. After implementing bank
             statement imports, the process now takes just a few hours. Mohammed set up a direct connection to his

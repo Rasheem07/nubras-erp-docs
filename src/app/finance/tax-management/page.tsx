@@ -22,7 +22,7 @@ export default function TaxManagementPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Value Added Tax (VAT) / Sales Tax</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Consumption tax applied to the sale of goods and services. For tailoring businesses, this typically
               applies to finished garments, alterations, and fabric sales.
             </p>
@@ -30,7 +30,7 @@ export default function TaxManagementPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Income Tax</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Tax on business profits. The structure depends on your business entity type (sole proprietorship,
               partnership, LLC, corporation).
             </p>
@@ -38,7 +38,7 @@ export default function TaxManagementPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Payroll Taxes</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Taxes related to employee compensation, including social security, health insurance, and income tax
               withholding.
             </p>
@@ -46,7 +46,7 @@ export default function TaxManagementPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Import Duties</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Taxes on imported fabrics, equipment, or other materials. Particularly relevant for tailoring businesses
               that source materials internationally.
             </p>
@@ -72,7 +72,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Multiple Tax Rates</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Many jurisdictions have different tax rates for different types of goods and services. For tailoring
             businesses, you might need to configure:
           </p>
@@ -103,7 +103,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Tax Inclusive vs. Tax Exclusive Pricing</h3>
-          <p className="text-sm mt-2">Configure whether your prices include or exclude tax:</p>
+          <p className="text-base mt-2">Configure whether your prices include or exclude tax:</p>
           <ol className="list-decimal list-inside space-y-1 mt-2 text-xs">
             <li>Go to Finance &gt; Settings &gt; Tax Display</li>
             <li>Select "Tax Inclusive" or "Tax Exclusive" pricing</li>
@@ -127,7 +127,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Available VAT/Sales Tax Reports</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>VAT Return Summary</li>
             <li>Input Tax Detail Report</li>
             <li>Output Tax Detail Report</li>
@@ -184,7 +184,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Tax-Specific Categories for Tailoring Businesses</h3>
-          <p className="text-sm mt-2">Configure expense categories that align with tax deduction categories:</p>
+          <p className="text-base mt-2">Configure expense categories that align with tax deduction categories:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Fabric and materials</li>
             <li>Sewing equipment and maintenance</li>
@@ -270,7 +270,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Import Cost Calculation</h3>
-          <p className="text-sm mt-2">The system helps calculate the true cost of imported materials by including:</p>
+          <p className="text-base mt-2">The system helps calculate the true cost of imported materials by including:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Base material cost</li>
             <li>Import duties and tariffs</li>
@@ -301,7 +301,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Tax Calendar Integration</h3>
-          <p className="text-sm mt-2">The tax calendar can be integrated with:</p>
+          <p className="text-base mt-2">The tax calendar can be integrated with:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Email notifications</li>
             <li>SMS alerts</li>
@@ -376,7 +376,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Common Tax Planning Strategies for Tailoring Businesses</h3>
-          <ul className="list-disc list-inside space-y-1 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-1 mt-2 text-base">
             <li>Timing large equipment purchases to maximize depreciation benefits</li>
             <li>Managing inventory purchases and year-end inventory levels</li>
             <li>Structuring customer deposits and advance payments</li>
@@ -387,7 +387,7 @@ export default function TaxManagementPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Fatima runs a tailoring business with five employees, specializing in custom formal wear. She uses the Tax
             Management features to handle her VAT compliance, which previously took her nearly two days each quarter.
             Now, the system automatically tracks input and output VAT on all transactions. She's created tax categories

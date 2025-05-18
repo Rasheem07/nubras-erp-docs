@@ -24,23 +24,23 @@ export default function FinanceDashboardPage() {
               <ul className="space-y-3">
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Cash Position</span>
-                  <span className="text-sm text-muted-foreground">Total of all bank and cash accounts</span>
+                  <span className="text-base text-muted-foreground">Total of all bank and cash accounts</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Accounts Receivable</span>
-                  <span className="text-sm text-muted-foreground">Total outstanding customer invoices</span>
+                  <span className="text-base text-muted-foreground">Total outstanding customer invoices</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Accounts Payable</span>
-                  <span className="text-sm text-muted-foreground">Total outstanding supplier bills</span>
+                  <span className="text-base text-muted-foreground">Total outstanding supplier bills</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Monthly Revenue</span>
-                  <span className="text-sm text-muted-foreground">Current month's total income</span>
+                  <span className="text-base text-muted-foreground">Current month's total income</span>
                 </li>
                 <li className="flex justify-between items-center">
                   <span className="font-medium">Monthly Expenses</span>
-                  <span className="text-sm text-muted-foreground">Current month's total expenses</span>
+                  <span className="text-base text-muted-foreground">Current month's total expenses</span>
                 </li>
               </ul>
             </CardContent>
@@ -52,23 +52,23 @@ export default function FinanceDashboardPage() {
               <ul className="space-y-3">
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Cash Flow Chart</span>
-                  <span className="text-sm text-muted-foreground">Money in vs. money out</span>
+                  <span className="text-base text-muted-foreground">Money in vs. money out</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Revenue Breakdown</span>
-                  <span className="text-sm text-muted-foreground">Income by service type</span>
+                  <span className="text-base text-muted-foreground">Income by service type</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Expense Categories</span>
-                  <span className="text-sm text-muted-foreground">Where your money is going</span>
+                  <span className="text-base text-muted-foreground">Where your money is going</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Receivables Aging</span>
-                  <span className="text-sm text-muted-foreground">Overdue invoice analysis</span>
+                  <span className="text-base text-muted-foreground">Overdue invoice analysis</span>
                 </li>
                 <li className="flex justify-between items-center">
                   <span className="font-medium">Monthly Comparison</span>
-                  <span className="text-sm text-muted-foreground">This month vs. last month</span>
+                  <span className="text-base text-muted-foreground">This month vs. last month</span>
                 </li>
               </ul>
             </CardContent>
@@ -93,7 +93,7 @@ export default function FinanceDashboardPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Daily Use</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Check your cash position and any overdue invoices. Review recent transactions to stay on top of your daily
             finances.
           </p>
@@ -101,7 +101,7 @@ export default function FinanceDashboardPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Weekly Review</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Analyze your revenue vs. expenses chart to see how your week performed. Look for any unusual patterns or
             transactions.
           </p>
@@ -109,14 +109,14 @@ export default function FinanceDashboardPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Monthly Analysis</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             Compare this month to previous months. Review your expense breakdown to identify cost-saving opportunities.
           </p>
         </div>
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Fatima runs a tailoring business specializing in wedding attire. Every Monday morning, she reviews her
             Finance Dashboard to plan her week. She notices her Accounts Receivable has increased, so she clicks on the
             Receivables Aging chart to see which invoices are overdue. She identifies three wedding dress alterations

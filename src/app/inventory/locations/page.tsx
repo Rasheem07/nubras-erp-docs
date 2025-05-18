@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function InventoryLocationsPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -38,7 +38,7 @@ export default function InventoryLocationsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>
                 <strong>Location Hierarchy:</strong> Organizational structure of storage areas
               </li>
@@ -71,7 +71,7 @@ export default function InventoryLocationsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Site:</strong> Physical facility or building
                   <ul className="list-disc list-inside ml-6 mt-1">
@@ -124,8 +124,8 @@ export default function InventoryLocationsPage() {
             <h4 className="font-medium mb-2">Common Inventory Location Types</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Physical Storage Locations</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Physical Storage Locations</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     <strong>Bulk Storage:</strong> Large quantity storage areas
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -154,8 +154,8 @@ export default function InventoryLocationsPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Logical Locations</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Logical Locations</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     <strong>Quality Control:</strong> Locations for items pending inspection
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -194,7 +194,7 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Inventory Accuracy</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Precise item tracking</li>
                   <li>Reduced lost inventory</li>
                   <li>Easier cycle counting</li>
@@ -210,7 +210,7 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Operational Efficiency</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Faster item location</li>
                   <li>Optimized picking routes</li>
                   <li>Reduced search time</li>
@@ -226,7 +226,7 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Control & Compliance</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Segregation of materials</li>
                   <li>FIFO/FEFO enforcement</li>
                   <li>Regulatory compliance</li>
@@ -266,8 +266,8 @@ export default function InventoryLocationsPage() {
             <h4 className="font-medium mb-2">Location Design Considerations</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Physical Layout Analysis</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Physical Layout Analysis</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     Map your actual storage facilities:
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -290,8 +290,8 @@ export default function InventoryLocationsPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Hierarchy Development</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Hierarchy Development</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     Define hierarchy levels:
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -315,7 +315,7 @@ export default function InventoryLocationsPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Location Numbering Examples:</h5>
+              <h5 className="text-base font-medium">Location Numbering Examples:</h5>
               <p className="text-xs mt-1">Sample location numbering schemes for different business needs:</p>
               <ul className="list-disc list-inside text-xs mt-2">
                 <li>
@@ -347,11 +347,11 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Individual Location Creation</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Creating locations one at a time.</p>
+                <p className="text-base mb-3">Creating locations one at a time.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Navigate to Inventory  {">"}  Locations</li>
                       <li>Click "Create Location"</li>
                       <li>Select parent location (if applicable)</li>
@@ -362,8 +362,8 @@ export default function InventoryLocationsPage() {
                     </ol>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Best For:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Best For:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Small number of locations</li>
                       <li>Unique, specialized locations</li>
                       <li>Locations with many custom attributes</li>
@@ -379,11 +379,11 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Bulk Location Creation</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Creating multiple locations at once.</p>
+                <p className="text-base mb-3">Creating multiple locations at once.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Navigate to Inventory {">"} Locations</li>
                       <li>Click "Bulk Create"</li>
                       <li>
@@ -400,8 +400,8 @@ export default function InventoryLocationsPage() {
                     </ol>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Best For:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Best For:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Large location structures</li>
                       <li>Standardized location patterns</li>
                       <li>Initial warehouse setup</li>
@@ -443,11 +443,11 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Internal Transfers</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Moving inventory within the same facility.</p>
+                <p className="text-base mb-3">Moving inventory within the same facility.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Common Scenarios:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Common Scenarios:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Putaway from receiving</li>
                       <li>Replenishment of pick locations</li>
                       <li>Consolidation of partial quantities</li>
@@ -456,8 +456,8 @@ export default function InventoryLocationsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Create internal transfer request</li>
                       <li>Specify source and destination</li>
                       <li>Select items and quantities</li>
@@ -475,11 +475,11 @@ export default function InventoryLocationsPage() {
                 <CardTitle>Facility Transfers</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Moving inventory between different physical locations.</p>
+                <p className="text-base mb-3">Moving inventory between different physical locations.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Common Scenarios:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Common Scenarios:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Warehouse to warehouse transfers</li>
                       <li>Distribution center to store</li>
                       <li>Production to warehouse</li>
@@ -488,8 +488,8 @@ export default function InventoryLocationsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Create facility transfer order</li>
                       <li>Specify source and destination facilities</li>
                       <li>Select items and quantities</li>

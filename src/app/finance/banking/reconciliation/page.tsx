@@ -22,7 +22,7 @@ export default function ReconciliationPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Catch Errors Early</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Reconciliation helps identify data entry errors, duplicate transactions, or bank mistakes before they
               cause larger problems.
             </p>
@@ -30,21 +30,21 @@ export default function ReconciliationPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Prevent Fraud</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Regular reconciliation can help detect unauthorized transactions or suspicious activity in your accounts.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Accurate Financial Reporting</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Ensures your financial statements reflect your true cash position, leading to better business decisions.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Tax Compliance</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Properly reconciled accounts make tax preparation easier and provide an audit trail if needed.
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function ReconciliationPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Understanding the Reconciliation Screen</h3>
-          <ul className="list-disc list-inside space-y-2 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-2 mt-2 text-base">
             <li>
               <span className="font-medium">Beginning Balance:</span> The ending balance from your last reconciliation
             </li>
@@ -96,7 +96,7 @@ export default function ReconciliationPage() {
         <div className="space-y-4 mt-4">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Outstanding Checks or Deposits</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Transactions you've recorded but that haven't cleared the bank yet. These are normal and will be included
               in your next reconciliation.
             </p>
@@ -107,7 +107,7 @@ export default function ReconciliationPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Bank Fees or Interest Not Recorded</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Banks often charge fees or pay interest that you may not have recorded in your system.
             </p>
             <p className="text-xs text-muted-foreground mt-2">
@@ -117,7 +117,7 @@ export default function ReconciliationPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Transposition Errors</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Switching digits when entering amounts (e.g., entering 1,540 instead of 1,450).
             </p>
             <p className="text-xs text-muted-foreground mt-2">
@@ -128,7 +128,7 @@ export default function ReconciliationPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Duplicate Transactions</h3>
-            <p className="text-sm mt-2">The same transaction recorded twice in your system.</p>
+            <p className="text-base mt-2">The same transaction recorded twice in your system.</p>
             <p className="text-xs text-muted-foreground mt-2">
               <strong>Solution:</strong> Delete the duplicate entry to correct your records.
             </p>
@@ -164,7 +164,7 @@ export default function ReconciliationPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Aisha runs a tailoring business and reconciles her bank accounts on the 5th of each month when her
             statements arrive. During her May reconciliation, she noticed a AED 250 difference between her records and
             the bank statement. After reviewing the transactions, she discovered she had recorded a fabric purchase as

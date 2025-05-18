@@ -39,19 +39,19 @@ export default function FinanceBankingPage() {
               <ul className="space-y-3">
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Checking Account</span>
-                  <span className="text-sm text-muted-foreground">For day-to-day transactions</span>
+                  <span className="text-base text-muted-foreground">For day-to-day transactions</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Savings Account</span>
-                  <span className="text-sm text-muted-foreground">For reserve funds</span>
+                  <span className="text-base text-muted-foreground">For reserve funds</span>
                 </li>
                 <li className="flex justify-between items-center border-b pb-2">
                   <span className="font-medium">Credit Card</span>
-                  <span className="text-sm text-muted-foreground">For tracking card expenses</span>
+                  <span className="text-base text-muted-foreground">For tracking card expenses</span>
                 </li>
                 <li className="flex justify-between items-center">
                   <span className="font-medium">Petty Cash</span>
-                  <span className="text-sm text-muted-foreground">For small cash expenses</span>
+                  <span className="text-base text-muted-foreground">For small cash expenses</span>
                 </li>
               </ul>
             </CardContent>
@@ -77,7 +77,7 @@ export default function FinanceBankingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-6">
           <h3 className="font-medium">Reconciliation Tips</h3>
-          <ul className="list-disc list-inside space-y-2 mt-2 text-sm">
+          <ul className="list-disc list-inside space-y-2 mt-2 text-base">
             <li>Reconcile your accounts monthly</li>
             <li>Address discrepancies immediately</li>
             <li>Keep digital copies of bank statements</li>
@@ -101,7 +101,7 @@ export default function FinanceBankingPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Aisha runs a tailoring business with two bank accounts - an operating account for daily expenses and a
             savings account for taxes and large fabric purchases. Every month, she downloads her bank statements and
             goes to the Banking section to reconcile. She notices a customer payment of AED 2,500 on her bank statement

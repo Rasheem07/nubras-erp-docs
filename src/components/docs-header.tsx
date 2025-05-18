@@ -21,7 +21,7 @@ export function DocsHeader() {
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <span className="hidden font-bold sm:inline-block">Nubras ERP</span>
           </Link>
-          <nav className="flex items-center space-x-6 text-sm font-medium">
+          <nav className="flex items-center space-x-6 text-base font-medium">
             <Link
               href="/"
               className={cn(

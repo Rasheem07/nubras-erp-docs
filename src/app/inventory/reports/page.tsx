@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function InventoryReportsPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -42,11 +42,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Current Inventory Report</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Snapshot of current inventory levels.</p>
+                <p className="text-base mb-3">Snapshot of current inventory levels.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Report Content:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Report Content:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Item details (code, description)</li>
                       <li>Current quantity on hand</li>
                       <li>Unit of measure</li>
@@ -55,8 +55,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Uses:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Uses:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Inventory status monitoring</li>
                       <li>Financial reporting</li>
                       <li>Inventory verification</li>
@@ -71,11 +71,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Inventory Valuation Report</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Financial value of current inventory.</p>
+                <p className="text-base mb-3">Financial value of current inventory.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Report Content:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Report Content:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Item details</li>
                       <li>Quantity on hand</li>
                       <li>Unit cost</li>
@@ -84,8 +84,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Uses:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Uses:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Financial reporting</li>
                       <li>Asset valuation</li>
                       <li>Cost analysis</li>
@@ -100,11 +100,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Inventory by Location Report</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Inventory distribution across locations.</p>
+                <p className="text-base mb-3">Inventory distribution across locations.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Report Content:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Report Content:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Location details</li>
                       <li>Items in each location</li>
                       <li>Quantities by location</li>
@@ -112,8 +112,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Uses:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Uses:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Space utilization analysis</li>
                       <li>Inventory distribution planning</li>
                       <li>Location management</li>
@@ -128,11 +128,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Lot/Batch Tracking Report</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Inventory details by lot or batch number.</p>
+                <p className="text-base mb-3">Inventory details by lot or batch number.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Report Content:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Report Content:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Lot/batch numbers</li>
                       <li>Quantity by lot/batch</li>
                       <li>Receipt date</li>
@@ -141,8 +141,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Uses:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Uses:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Quality management</li>
                       <li>Traceability</li>
                       <li>Expiry management</li>
@@ -162,11 +162,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Inventory Transaction Report</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Record of all inventory movements.</p>
+                <p className="text-base mb-3">Record of all inventory movements.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Report Content:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Report Content:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Transaction date and time</li>
                       <li>Transaction type</li>
                       <li>Item details</li>
@@ -176,8 +176,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Uses:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Uses:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Audit trail</li>
                       <li>Movement tracking</li>
                       <li>Activity analysis</li>
@@ -192,11 +192,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Stock Movement Summary</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Summary of inventory movements by period.</p>
+                <p className="text-base mb-3">Summary of inventory movements by period.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Report Content:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Report Content:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Opening balance</li>
                       <li>Receipts</li>
                       <li>Issues</li>
@@ -206,8 +206,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Uses:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Uses:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Period analysis</li>
                       <li>Reconciliation</li>
                       <li>Activity monitoring</li>
@@ -223,7 +223,7 @@ export default function InventoryReportsPage() {
           <h3 className="text-xl font-semibold mb-3">Accessing Standard Reports</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Using the Reporting Module</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 Navigate to Reports:
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -271,7 +271,7 @@ export default function InventoryReportsPage() {
             </ol>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Report Favorites:</h5>
+              <h5 className="text-base font-medium">Report Favorites:</h5>
               <p className="text-xs mt-1">Save time by creating favorites for frequently used reports:</p>
               <ol className="list-decimal list-inside text-xs mt-2">
                 <li>Generate a report with your preferred parameters</li>
@@ -312,11 +312,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Inventory Turnover Analysis</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Measures how quickly inventory is sold and replaced.</p>
+                <p className="text-base mb-3">Measures how quickly inventory is sold and replaced.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Analysis Components:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Analysis Components:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Turnover ratio calculation</li>
                       <li>Days inventory outstanding</li>
                       <li>Comparison to industry benchmarks</li>
@@ -325,8 +325,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Key Insights:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Insights:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Inventory efficiency</li>
                       <li>Working capital utilization</li>
                       <li>Potential obsolescence risks</li>
@@ -342,11 +342,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>ABC Analysis</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Categorizes inventory based on value and importance.</p>
+                <p className="text-base mb-3">Categorizes inventory based on value and importance.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">How it works:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">How it works:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>
                         <strong>A Items:</strong> High-value materials (80% of value, 20% of items)
                       </li>
@@ -359,8 +359,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Application:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Application:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Focus inventory control on A items</li>
                       <li>Implement different ordering policies by category</li>
                       <li>Adjust safety stock levels by category</li>
@@ -381,11 +381,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Analytics Dashboard</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Interactive visualization of key inventory metrics.</p>
+                <p className="text-base mb-3">Interactive visualization of key inventory metrics.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Real-time data visualization</li>
                       <li>Customizable metrics and KPIs</li>
                       <li>Drill-down capabilities</li>
@@ -394,8 +394,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Access:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Access:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Navigate to Inventory {">"} Analytics</li>
                       <li>Select dashboard type</li>
                       <li>Customize view as needed</li>
@@ -411,11 +411,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Data Explorer</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Ad-hoc analysis tool for inventory data.</p>
+                <p className="text-base mb-3">Ad-hoc analysis tool for inventory data.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Drag-and-drop interface</li>
                       <li>Custom query building</li>
                       <li>Multiple visualization options</li>
@@ -424,8 +424,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Access:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Access:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>
                         Navigate to Inventory {">"} Analytics {">"} Data Explorer
                       </li>
@@ -464,7 +464,7 @@ export default function InventoryReportsPage() {
           <h3 className="text-xl font-semibold mb-3">Report Builder</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Creating Custom Reports</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 Access the Report Builder:
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -552,11 +552,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Calculated Fields</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Create custom calculations in reports.</p>
+                <p className="text-base mb-3">Create custom calculations in reports.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Capabilities:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Capabilities:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Mathematical operations</li>
                       <li>Date and time calculations</li>
                       <li>Text manipulation</li>
@@ -565,8 +565,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Example Calculations:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Example Calculations:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Days in inventory = Current Date - Receipt Date</li>
                       <li>Extended Value = Quantity * Unit Cost</li>
                       <li>Turnover Ratio = Usage / Average Inventory</li>
@@ -582,11 +582,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Conditional Formatting</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Apply dynamic formatting based on data values.</p>
+                <p className="text-base mb-3">Apply dynamic formatting based on data values.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Formatting Options:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Formatting Options:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Color coding (text and background)</li>
                       <li>Font styles (bold, italic, etc.)</li>
                       <li>Icons and indicators</li>
@@ -595,8 +595,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Example Applications:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Example Applications:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Red text for negative variances</li>
                       <li>Background color based on aging category</li>
                       <li>Bold for items below reorder point</li>
@@ -617,11 +617,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Report Scheduling</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Automate report generation and distribution.</p>
+                <p className="text-base mb-3">Automate report generation and distribution.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Scheduling Options:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Scheduling Options:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>One-time scheduled execution</li>
                       <li>Recurring schedules (daily, weekly, monthly)</li>
                       <li>Event-triggered execution</li>
@@ -630,8 +630,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Setup Process:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">Setup Process:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Navigate to Reports {">"} Schedule</li>
                       <li>Select report to schedule</li>
                       <li>Set parameters and format</li>
@@ -648,11 +648,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Export Formats</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Options for exporting and sharing reports.</p>
+                <p className="text-base mb-3">Options for exporting and sharing reports.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Available Formats:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Available Formats:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>PDF (for printing and sharing)</li>
                       <li>Excel (for further analysis)</li>
                       <li>CSV (for data import)</li>
@@ -662,8 +662,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Export Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Export Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Format-specific options</li>
                       <li>Password protection</li>
                       <li>Compression options</li>
@@ -705,11 +705,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Inventory Overview Dashboard</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">High-level view of overall inventory status.</p>
+                <p className="text-base mb-3">High-level view of overall inventory status.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Key Components:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Components:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Total inventory value</li>
                       <li>Inventory by category chart</li>
                       <li>Inventory turnover metrics</li>
@@ -719,8 +719,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Primary Users:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Primary Users:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Inventory managers</li>
                       <li>Operations directors</li>
                       <li>Finance managers</li>
@@ -736,11 +736,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Operational Dashboard</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Focused on day-to-day inventory operations.</p>
+                <p className="text-base mb-3">Focused on day-to-day inventory operations.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Key Components:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Key Components:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Items below reorder point</li>
                       <li>Pending receipts and issues</li>
                       <li>Today's scheduled activities</li>
@@ -750,8 +750,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Primary Users:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Primary Users:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Warehouse staff</li>
                       <li>Inventory clerks</li>
                       <li>Purchasing coordinators</li>
@@ -772,11 +772,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>Design Principles</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Guidelines for effective dashboard design.</p>
+                <p className="text-base mb-3">Guidelines for effective dashboard design.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Visual Design:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Visual Design:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Use consistent color scheme</li>
                       <li>Limit to 5-7 components per view</li>
                       <li>Organize by importance (top to bottom)</li>
@@ -786,8 +786,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Content Selection:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Content Selection:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Focus on actionable metrics</li>
                       <li>Include context for interpretation</li>
                       <li>Balance detail and overview</li>
@@ -804,11 +804,11 @@ export default function InventoryReportsPage() {
                 <CardTitle>User Adoption</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Strategies for encouraging dashboard usage.</p>
+                <p className="text-base mb-3">Strategies for encouraging dashboard usage.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Engagement Tactics:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Engagement Tactics:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Involve users in design</li>
                       <li>Provide training and documentation</li>
                       <li>Start with simple dashboards</li>
@@ -817,8 +817,8 @@ export default function InventoryReportsPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Ongoing Management:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Ongoing Management:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Monitor usage patterns</li>
                       <li>Regularly update content</li>
                       <li>Communicate changes and enhancements</li>

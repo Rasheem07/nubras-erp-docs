@@ -65,7 +65,7 @@ export default function ExpenseClaimsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Receipt Requirements</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             For proper record-keeping and tax compliance, ensure all expense claims include:
           </p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
@@ -99,7 +99,7 @@ export default function ExpenseClaimsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Approval Policies</h3>
-          <p className="text-sm mt-2">Consider establishing clear expense claim policies:</p>
+          <p className="text-base mt-2">Consider establishing clear expense claim policies:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Maximum amounts for different expense types</li>
             <li>Required approvals for different expense levels</li>
@@ -126,7 +126,7 @@ export default function ExpenseClaimsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Batch Reimbursements</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             For efficiency, you can process multiple expense claims in a single batch payment:
           </p>
           <ol className="list-decimal list-inside space-y-1 mt-2 text-xs">
@@ -147,7 +147,7 @@ export default function ExpenseClaimsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Journal Entries</h3>
-          <p className="text-sm mt-2">For each expense claim, the following entries are created:</p>
+          <p className="text-base mt-2">For each expense claim, the following entries are created:</p>
           <ul className="list-disc list-inside space-y-1 mt-2 text-xs">
             <li>Debit to the appropriate expense accounts based on expense categories</li>
             <li>Credit to Accounts Payable (or directly to Cash/Bank if paid immediately)</li>
@@ -223,7 +223,7 @@ export default function ExpenseClaimsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Aisha runs a tailoring business with three employees. One of her tailors, Khalid, attended a specialized
             embroidery workshop in Dubai, paying for the registration, travel, and accommodation with his personal
             credit card. Upon returning, Khalid used the mobile app to create an expense claim, taking photos of all

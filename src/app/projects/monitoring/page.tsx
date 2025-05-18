@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function ProjectMonitoringDocumentation() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Project Monitoring</h1>
@@ -58,7 +58,7 @@ export default function ProjectMonitoringDocumentation() {
                 <span className="font-medium">Issue Resolution Rate:</span> How quickly issues are being resolved
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               KPIs are automatically calculated based on project data and displayed on the performance dashboard.
             </p>
           </div>
@@ -143,7 +143,7 @@ export default function ProjectMonitoringDocumentation() {
                 <span className="font-medium">Financial Status Report:</span> Budget and cost tracking
               </li>
             </ul>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               Each report type includes different sections and levels of detail appropriate for its purpose.
             </p>
           </div>
@@ -219,14 +219,14 @@ export default function ProjectMonitoringDocumentation() {
                 <span className="font-medium">Verification:</span> Confirm the change was implemented correctly
               </li>
             </ol>
-            <p className="mt-2 text-sm text-muted-foreground">
+            <p className="mt-2 text-base text-muted-foreground">
               The system tracks each change request through this process, with appropriate notifications at each stage.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Ahmed is managing a custom wedding dress project. During the first fitting, the client requests
               additional beadwork on the bodice, which wasn't in the original design. Ahmed creates a change request in
               the system, documenting the client's requirements with photos and notes. He then performs an impact
@@ -311,7 +311,7 @@ export default function ProjectMonitoringDocumentation() {
 
           <div className="bg-muted p-4 rounded-lg mt-8">
             <h3 className="font-medium">Real-World Example</h3>
-            <p className="text-sm mt-2 italic">
+            <p className="text-base mt-2 italic">
               "Fatima is monitoring a complex traditional wedding outfit project with extensive hand embroidery. During
               her weekly risk review, she notices that the specialized embroidery thread ordered from overseas is
               delayed in customs. She immediately updates the risk register, increasing the probability of the 'material

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function InventoryAuditPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -38,7 +38,7 @@ export default function InventoryAuditPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>
                 <strong>Inventory Accuracy:</strong> Measure of how well system records match physical reality
               </li>
@@ -71,7 +71,7 @@ export default function InventoryAuditPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ol className="list-decimal list-inside space-y-2 text-sm">
+              <ol className="list-decimal list-inside space-y-2 text-base">
                 <li>
                   <strong>Planning:</strong> Define scope and approach
                   <ul className="list-disc list-inside ml-6 mt-1">
@@ -139,7 +139,7 @@ export default function InventoryAuditPage() {
                 <CardTitle>Operational Benefits</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Improved inventory accuracy</li>
                   <li>Reduced stockouts</li>
                   <li>Better order fulfillment</li>
@@ -155,7 +155,7 @@ export default function InventoryAuditPage() {
                 <CardTitle>Financial Benefits</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Accurate financial reporting</li>
                   <li>Reduced inventory write-offs</li>
                   <li>Better cash flow management</li>
@@ -171,7 +171,7 @@ export default function InventoryAuditPage() {
                 <CardTitle>Strategic Benefits</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm">
+                <ul className="list-disc list-inside text-base">
                   <li>Data-driven decision making</li>
                   <li>Process improvement insights</li>
                   <li>Enhanced loss prevention</li>
@@ -200,9 +200,9 @@ export default function InventoryAuditPage() {
             <h4 className="font-medium mb-2">Designing Your Cycle Count Program</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Count Frequency Determination</h5>
-                <p className="text-sm">Establishing how often items should be counted:</p>
-                <ul className="list-disc list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">Count Frequency Determination</h5>
+                <p className="text-base">Establishing how often items should be counted:</p>
+                <ul className="list-disc list-inside text-base mt-2">
                   <li>
                     <strong>ABC Analysis Method:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -224,9 +224,9 @@ export default function InventoryAuditPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Cycle Count Execution</h5>
-                <p className="text-sm">Step-by-step process for performing cycle counts:</p>
-                <ol className="list-decimal list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">Cycle Count Execution</h5>
+                <p className="text-base">Step-by-step process for performing cycle counts:</p>
+                <ol className="list-decimal list-inside text-base mt-2">
                   <li>
                     <strong>Count Preparation:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -284,8 +284,8 @@ export default function InventoryAuditPage() {
             <h4 className="font-medium mb-2">Implementing Cycle Counting in a Tailoring Business</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Business Context</h5>
-                <p className="text-sm">
+                <h5 className="text-base font-medium">Business Context</h5>
+                <p className="text-base">
                   Elegant Tailors, a medium-sized tailoring business with over 300 fabric types and 2,000 SKUs, was
                   struggling with inventory accuracy. They frequently discovered stockouts during production and had
                   difficulty locating specific fabrics. Their annual physical inventory was disruptive and still
@@ -294,8 +294,8 @@ export default function InventoryAuditPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Cycle Count Implementation</h5>
-                <ol className="list-decimal list-inside text-sm">
+                <h5 className="text-base font-medium">Cycle Count Implementation</h5>
+                <ol className="list-decimal list-inside text-base">
                   <li>
                     <strong>ABC Classification:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -336,8 +336,8 @@ export default function InventoryAuditPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Results</h5>
-                <ul className="list-disc list-inside text-sm">
+                <h5 className="text-base font-medium">Results</h5>
+                <ul className="list-disc list-inside text-base">
                   <li>Inventory accuracy improved from 85% to 97% within six months</li>
                   <li>Production delays due to fabric stockouts reduced by 80%</li>
                   <li>Time spent searching for materials decreased by 65%</li>
@@ -350,7 +350,7 @@ export default function InventoryAuditPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Implementation Tips:</h5>
+              <h5 className="text-base font-medium">Implementation Tips:</h5>
               <ul className="list-disc list-inside text-xs mt-2">
                 <li>
                   <strong>Start Small:</strong> Begin with a limited area or category to refine your process
@@ -399,11 +399,11 @@ export default function InventoryAuditPage() {
               <CardTitle>Timing and Scheduling</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Determining when to conduct physical inventory.</p>
+              <p className="text-base mb-3">Determining when to conduct physical inventory.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Timing Considerations:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Timing Considerations:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Fiscal year-end requirements</li>
                     <li>Seasonal business cycles</li>
                     <li>Operational impact</li>
@@ -412,8 +412,8 @@ export default function InventoryAuditPage() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Schedule Development:</p>
-                  <ol className="list-decimal list-inside text-sm">
+                  <p className="text-base font-medium">Schedule Development:</p>
+                  <ol className="list-decimal list-inside text-base">
                     <li>Set inventory date</li>
                     <li>Create detailed timeline</li>
                     <li>Schedule pre-count activities</li>
@@ -430,11 +430,11 @@ export default function InventoryAuditPage() {
               <CardTitle>Resource Planning</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm mb-3">Organizing personnel and equipment for counting.</p>
+              <p className="text-base mb-3">Organizing personnel and equipment for counting.</p>
               <div className="space-y-2">
                 <div>
-                  <p className="text-sm font-medium">Personnel Requirements:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Personnel Requirements:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Count teams formation</li>
                     <li>Team leader assignments</li>
                     <li>Verification personnel</li>
@@ -443,8 +443,8 @@ export default function InventoryAuditPage() {
                   </ul>
                 </div>
                 <div>
-                  <p className="text-sm font-medium">Equipment Needs:</p>
-                  <ul className="list-disc list-inside text-sm">
+                  <p className="text-base font-medium">Equipment Needs:</p>
+                  <ul className="list-disc list-inside text-base">
                     <li>Count sheets or mobile devices</li>
                     <li>Barcode scanners</li>
                     <li>Counting scales</li>
@@ -461,7 +461,7 @@ export default function InventoryAuditPage() {
           <h3 className="text-xl font-semibold mb-3">Physical Inventory Workflow</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Step-by-Step Physical Inventory Process</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 <strong>Pre-Count Preparation:</strong>
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -564,9 +564,9 @@ export default function InventoryAuditPage() {
             <h4 className="font-medium mb-2">Investigating Count Discrepancies</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Investigation Process</h5>
-                <p className="text-sm">Systematic approach to researching variances:</p>
-                <ol className="list-decimal list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">Investigation Process</h5>
+                <p className="text-base">Systematic approach to researching variances:</p>
+                <ol className="list-decimal list-inside text-base mt-2">
                   <li>
                     <strong>Variance Identification:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -610,8 +610,8 @@ export default function InventoryAuditPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Common Variance Causes in Tailoring</h5>
-                <ul className="list-disc list-inside text-sm mt-2">
+                <h5 className="text-base font-medium">Common Variance Causes in Tailoring</h5>
+                <ul className="list-disc list-inside text-base mt-2">
                   <li>
                     <strong>Fabric Measurement Issues:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -651,8 +651,8 @@ export default function InventoryAuditPage() {
             <h4 className="font-medium mb-2">Resolving Fabric Inventory Discrepancies</h4>
             <div className="space-y-4">
               <div>
-                <h5 className="text-sm font-medium">Scenario</h5>
-                <p className="text-sm">
+                <h5 className="text-base font-medium">Scenario</h5>
+                <p className="text-base">
                   During a cycle count at Royal Tailors, a significant variance was discovered for premium silk fabric.
                   The system showed 45 meters in stock, but only 32 meters were physically counted, representing a 29%
                   discrepancy worth approximately $1,300.
@@ -660,8 +660,8 @@ export default function InventoryAuditPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Investigation Process</h5>
-                <ol className="list-decimal list-inside text-sm">
+                <h5 className="text-base font-medium">Investigation Process</h5>
+                <ol className="list-decimal list-inside text-base">
                   <li>
                     <strong>Initial Assessment:</strong>
                     <ul className="list-disc list-inside ml-6 mt-1">
@@ -710,8 +710,8 @@ export default function InventoryAuditPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Results</h5>
-                <ul className="list-disc list-inside text-sm">
+                <h5 className="text-base font-medium">Results</h5>
+                <ul className="list-disc list-inside text-base">
                   <li>Accurate inventory records restored</li>
                   <li>Financial impact properly documented and accounted for</li>
                   <li>Process gap identified and addressed</li>

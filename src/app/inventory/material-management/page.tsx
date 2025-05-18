@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function MaterialManagementPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex items-center gap-2 mb-4">
         <Link href="/inventory">
           <Button variant="outline" size="icon">
@@ -38,7 +38,7 @@ export default function MaterialManagementPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Key Concepts</h3>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>
                 <strong>Material Allocation:</strong> Reserving materials for specific orders
               </li>
@@ -71,7 +71,7 @@ export default function MaterialManagementPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Pattern Matching:</strong> Aligning patterns across seams
                 </li>
@@ -101,7 +101,7 @@ export default function MaterialManagementPage() {
         <div className="mt-6">
           <h3 className="text-xl font-semibold mb-3">Material Management Workflow</h3>
           <div className="border rounded-lg p-4">
-            <ol className="list-decimal list-inside space-y-3 text-sm">
+            <ol className="list-decimal list-inside space-y-3 text-base">
               <li>
                 <strong>Order Receipt:</strong> Receive and analyze customer order
                 <ul className="list-disc list-inside ml-6 mt-1">
@@ -177,7 +177,7 @@ export default function MaterialManagementPage() {
           <h3 className="text-xl font-semibold mb-3">Allocation Process</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Creating Material Allocations</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>Navigate to Inventory {">"} Material Allocations</li>
               <li>Click "Create Allocation"</li>
               <li>
@@ -204,8 +204,8 @@ export default function MaterialManagementPage() {
             </ol>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Allocation Status:</h5>
-              <ul className="list-disc list-inside text-sm mt-2">
+              <h5 className="text-base font-medium">Allocation Status:</h5>
+              <ul className="list-disc list-inside text-base mt-2">
                 <li>
                   <strong>Draft:</strong> Allocation created but not processed
                 </li>
@@ -237,19 +237,19 @@ export default function MaterialManagementPage() {
                 <CardTitle>Standard Allocation</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Basic allocation for regular production orders.</p>
+                <p className="text-base mb-3">Basic allocation for regular production orders.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">When to use:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">When to use:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Regular production orders</li>
                       <li>Standard materials</li>
                       <li>Predictable material requirements</li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Simple allocation process</li>
                       <li>Automatic quantity calculation</li>
                       <li>Basic batch selection</li>
@@ -264,19 +264,19 @@ export default function MaterialManagementPage() {
                 <CardTitle>Cutting Plan Allocation</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Detailed allocation with cutting optimization.</p>
+                <p className="text-base mb-3">Detailed allocation with cutting optimization.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">When to use:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">When to use:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Complex garments with multiple pieces</li>
                       <li>Expensive or limited fabrics</li>
                       <li>Pattern matching requirements</li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Integrated cutting layout optimization</li>
                       <li>Waste calculation and tracking</li>
                       <li>Pattern placement visualization</li>
@@ -291,19 +291,19 @@ export default function MaterialManagementPage() {
                 <CardTitle>Customer-Provided Material</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Allocation for customer-supplied materials.</p>
+                <p className="text-base mb-3">Allocation for customer-supplied materials.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">When to use:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">When to use:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Customer provides their own fabric</li>
                       <li>Special materials supplied by customer</li>
                       <li>Consignment materials</li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Customer material tracking</li>
                       <li>No valuation impact</li>
                       <li>Special handling instructions</li>
@@ -318,19 +318,19 @@ export default function MaterialManagementPage() {
                 <CardTitle>Bulk Allocation</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Allocation for multiple orders at once.</p>
+                <p className="text-base mb-3">Allocation for multiple orders at once.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">When to use:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">When to use:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Mass production runs</li>
                       <li>Multiple similar orders</li>
                       <li>Batch processing</li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Features:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Features:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Combined material requirements</li>
                       <li>Optimized cutting across orders</li>
                       <li>Efficient material usage</li>
@@ -346,12 +346,12 @@ export default function MaterialManagementPage() {
           <h3 className="text-xl font-semibold mb-3">Cutting Plans</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Optimizing Material Usage</h4>
-            <p className="text-sm mb-3">Cutting plans help optimize fabric utilization and minimize waste:</p>
+            <p className="text-base mb-3">Cutting plans help optimize fabric utilization and minimize waste:</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <h5 className="text-sm font-medium">Creating Cutting Plans</h5>
-                <ol className="list-decimal list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Creating Cutting Plans</h5>
+                <ol className="list-decimal list-inside space-y-1 text-base">
                   <li>Navigate to Inventory {">"} Cutting Plans</li>
                   <li>Click "Create Cutting Plan"</li>
                   <li>Select the production order</li>
@@ -365,8 +365,8 @@ export default function MaterialManagementPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Cutting Plan Features</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Cutting Plan Features</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     <strong>Layout Optimization:</strong> Automatically arrange pattern pieces
                   </li>
@@ -393,8 +393,8 @@ export default function MaterialManagementPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Benefits of Cutting Plans:</h5>
-              <ul className="list-disc list-inside text-sm mt-2">
+              <h5 className="text-base font-medium">Benefits of Cutting Plans:</h5>
+              <ul className="list-disc list-inside text-base mt-2">
                 <li>
                   <strong>Reduced Waste:</strong> Optimize fabric utilization to minimize waste
                 </li>
@@ -437,7 +437,7 @@ export default function MaterialManagementPage() {
           <h3 className="text-xl font-semibold mb-3">Waste Tracking</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Recording Material Waste</h4>
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>Navigate to Inventory {">"} Waste Tracking</li>
               <li>Click "Create Waste Record"</li>
               <li>
@@ -464,8 +464,8 @@ export default function MaterialManagementPage() {
             </ol>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Waste Categories:</h5>
-              <ul className="list-disc list-inside text-sm mt-2">
+              <h5 className="text-base font-medium">Waste Categories:</h5>
+              <ul className="list-disc list-inside text-base mt-2">
                 <li>
                   <strong>Cutting Waste:</strong> Waste generated during the cutting process
                 </li>
@@ -490,12 +490,12 @@ export default function MaterialManagementPage() {
           <h3 className="text-xl font-semibold mb-3">Remnant Management</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Tracking and Utilizing Fabric Remnants</h4>
-            <p className="text-sm mb-3">Remnants are usable fabric pieces that remain after cutting:</p>
+            <p className="text-base mb-3">Remnants are usable fabric pieces that remain after cutting:</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <h5 className="text-sm font-medium">Recording Remnants</h5>
-                <ol className="list-decimal list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Recording Remnants</h5>
+                <ol className="list-decimal list-inside space-y-1 text-base">
                   <li>Navigate to Inventory {">"} Remnants</li>
                   <li>Click "Add Remnant"</li>
                   <li>Select the source material</li>
@@ -508,8 +508,8 @@ export default function MaterialManagementPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">Using Remnants</h5>
-                <ol className="list-decimal list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Using Remnants</h5>
+                <ol className="list-decimal list-inside space-y-1 text-base">
                   <li>Navigate to Inventory {">"} Remnants</li>
                   <li>Search for suitable remnants</li>
                   <li>Filter by material, size, color, etc.</li>
@@ -522,8 +522,8 @@ export default function MaterialManagementPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">Remnant Classification:</h5>
-              <ul className="list-disc list-inside text-sm mt-2">
+              <h5 className="text-base font-medium">Remnant Classification:</h5>
+              <ul className="list-disc list-inside text-base mt-2">
                 <li>
                   <strong>Large Remnants:</strong> Suitable for small garment pieces
                 </li>
@@ -549,11 +549,11 @@ export default function MaterialManagementPage() {
                 <CardTitle>Waste by Category</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Analyze waste by different categories.</p>
+                <p className="text-base mb-3">Analyze waste by different categories.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Analysis Dimensions:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Analysis Dimensions:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Waste by material type</li>
                       <li>Waste by production process</li>
                       <li>Waste by reason code</li>
@@ -561,8 +561,8 @@ export default function MaterialManagementPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">How to Access:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">How to Access:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Navigate to Inventory {">"} Reports</li>
                       <li>Select "Waste Analysis"</li>
                       <li>Choose "By Category" view</li>
@@ -579,11 +579,11 @@ export default function MaterialManagementPage() {
                 <CardTitle>Waste Trend Analysis</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Analyze waste patterns over time.</p>
+                <p className="text-base mb-3">Analyze waste patterns over time.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">Analysis Dimensions:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Analysis Dimensions:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Monthly/quarterly waste trends</li>
                       <li>Waste reduction progress</li>
                       <li>Seasonal waste patterns</li>
@@ -591,8 +591,8 @@ export default function MaterialManagementPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">How to Access:</p>
-                    <ol className="list-decimal list-inside text-sm">
+                    <p className="text-base font-medium">How to Access:</p>
+                    <ol className="list-decimal list-inside text-base">
                       <li>Navigate to Inventory {">"} Reports</li>
                       <li>Select "Waste Analysis"</li>
                       <li>Choose "Trend Analysis" view</li>
@@ -628,12 +628,12 @@ export default function MaterialManagementPage() {
           <h3 className="text-xl font-semibold mb-3">Material Requirements Planning</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Planning Material Needs</h4>
-            <p className="text-sm mb-3">Material Requirements Planning (MRP) helps forecast and plan material needs:</p>
+            <p className="text-base mb-3">Material Requirements Planning (MRP) helps forecast and plan material needs:</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <h5 className="text-sm font-medium">Running MRP</h5>
-                <ol className="list-decimal list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">Running MRP</h5>
+                <ol className="list-decimal list-inside space-y-1 text-base">
                   <li>Navigate to Inventory {">"} Material Planning</li>
                   <li>Click "Run MRP"</li>
                   <li>Set the planning horizon</li>
@@ -646,8 +646,8 @@ export default function MaterialManagementPage() {
               </div>
 
               <div>
-                <h5 className="text-sm font-medium">MRP Outputs</h5>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <h5 className="text-base font-medium">MRP Outputs</h5>
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>
                     <strong>Material Requirements:</strong> Quantities needed by date
                   </li>
@@ -671,8 +671,8 @@ export default function MaterialManagementPage() {
             </div>
 
             <div className="mt-4 bg-muted/50 p-3 rounded-md">
-              <h5 className="text-sm font-medium">MRP Considerations:</h5>
-              <ul className="list-disc list-inside text-sm mt-2">
+              <h5 className="text-base font-medium">MRP Considerations:</h5>
+              <ul className="list-disc list-inside text-base mt-2">
                 <li>
                   <strong>Lead Times:</strong> Account for supplier lead times in planning
                 </li>
@@ -701,11 +701,11 @@ export default function MaterialManagementPage() {
                 <CardTitle>ABC Analysis</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Categorize materials based on value and usage.</p>
+                <p className="text-base mb-3">Categorize materials based on value and usage.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">How it works:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">How it works:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>
                         <strong>A Items:</strong> High-value materials (80% of value, 20% of items)
                       </li>
@@ -718,8 +718,8 @@ export default function MaterialManagementPage() {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Application:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Application:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Focus inventory control on A items</li>
                       <li>Implement different ordering policies by category</li>
                       <li>Adjust safety stock levels by category</li>
@@ -735,19 +735,19 @@ export default function MaterialManagementPage() {
                 <CardTitle>Economic Order Quantity</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm mb-3">Calculate optimal order quantities.</p>
+                <p className="text-base mb-3">Calculate optimal order quantities.</p>
                 <div className="space-y-2">
                   <div>
-                    <p className="text-sm font-medium">How it works:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">How it works:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Balances ordering costs and holding costs</li>
                       <li>Calculates the most economical quantity to order</li>
                       <li>Considers usage rate, ordering cost, and holding cost</li>
                     </ul>
                   </div>
                   <div>
-                    <p className="text-sm font-medium">Application:</p>
-                    <ul className="list-disc list-inside text-sm">
+                    <p className="text-base font-medium">Application:</p>
+                    <ul className="list-disc list-inside text-base">
                       <li>Automatically calculate EOQ for materials</li>
                       <li>Reduce total inventory costs</li>
                       <li>Optimize order frequency</li>
@@ -764,9 +764,9 @@ export default function MaterialManagementPage() {
           <h3 className="text-xl font-semibold mb-3">Implementation Strategies</h3>
           <div className="border rounded-md p-4">
             <h4 className="font-medium mb-2">Implementing Material Optimization</h4>
-            <p className="text-sm mb-3">Follow these steps to implement material optimization in your business:</p>
+            <p className="text-base mb-3">Follow these steps to implement material optimization in your business:</p>
 
-            <ol className="list-decimal list-inside space-y-2 text-sm">
+            <ol className="list-decimal list-inside space-y-2 text-base">
               <li>
                 <strong>Assessment:</strong> Evaluate current material usage
                 <ul className="list-disc list-inside ml-6 mt-1">

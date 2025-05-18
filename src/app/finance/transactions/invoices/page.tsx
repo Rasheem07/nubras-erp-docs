@@ -27,7 +27,7 @@ export default function InvoicesPage() {
           <li>Enter the due date (typically 15-30 days from invoice date)</li>
           <li>
             Add line items for each service or product:
-            <ul className="list-disc list-inside ml-6 mt-2 text-sm">
+            <ul className="list-disc list-inside ml-6 mt-2 text-base">
               <li>Description (e.g., "Custom Suit Tailoring")</li>
               <li>Quantity</li>
               <li>Unit price</li>
@@ -42,7 +42,7 @@ export default function InvoicesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Invoice Numbering</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             The system automatically generates sequential invoice numbers (e.g., INV-0001, INV-0002). This helps you
             track invoices and maintain organized records. You can customize the invoice number format in Settings.
           </p>
@@ -55,7 +55,7 @@ export default function InvoicesPage() {
         <p className="mt-4">For a tailoring business, your invoice line items might include:</p>
 
         <div className="bg-muted p-4 rounded-lg mt-4 overflow-auto">
-          <table className="min-w-full text-sm">
+          <table className="min-w-full text-base">
             <thead>
               <tr>
                 <th className="text-left font-medium p-2">Description</th>
@@ -120,38 +120,38 @@ export default function InvoicesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Draft</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Invoices that are still being prepared and have not been finalized or sent to the customer.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Sent</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Invoices that have been finalized and sent to the customer but have not yet been paid.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Partially Paid</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Invoices where the customer has made a partial payment but still has a remaining balance.
             </p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Paid</h3>
-            <p className="text-sm mt-2">Invoices that have been fully paid by the customer.</p>
+            <p className="text-base mt-2">Invoices that have been fully paid by the customer.</p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Overdue</h3>
-            <p className="text-sm mt-2">Invoices that have passed their due date without being fully paid.</p>
+            <p className="text-base mt-2">Invoices that have passed their due date without being fully paid.</p>
           </div>
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Void</h3>
-            <p className="text-sm mt-2">Invoices that have been canceled and are no longer valid.</p>
+            <p className="text-base mt-2">Invoices that have been canceled and are no longer valid.</p>
           </div>
         </div>
 
@@ -238,7 +238,7 @@ export default function InvoicesPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Fatima runs a tailoring business specializing in wedding attire. When she completes a bridal gown
             alteration, she immediately creates an invoice in the Finance Module. She includes detailed line items for
             each service: bodice adjustment, hem shortening, bustle addition, and beadwork repair, along with the

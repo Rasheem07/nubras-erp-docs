@@ -19,7 +19,7 @@ export default function BankAccountsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Checking Accounts</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Used for day-to-day transactions like paying suppliers, receiving customer payments, and covering
               operating expenses. Most tailoring businesses should have at least one primary checking account.
             </p>
@@ -27,7 +27,7 @@ export default function BankAccountsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Savings Accounts</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Used for setting aside funds for future needs, such as tax payments, equipment purchases, or seasonal
               inventory buying. These typically earn interest but have limited transactions.
             </p>
@@ -35,7 +35,7 @@ export default function BankAccountsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Credit Card Accounts</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               While not technically bank accounts, business credit cards are tracked similarly in the Finance Module.
               They're useful for online purchases, travel expenses, and building business credit.
             </p>
@@ -43,7 +43,7 @@ export default function BankAccountsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Petty Cash</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               A small amount of physical cash kept on hand for minor expenses. In a tailoring business, this might be
               used for small supply purchases, delivery fees, or refreshments for customers.
             </p>
@@ -67,7 +67,7 @@ export default function BankAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-4">
           <h3 className="font-medium">Setting the Opening Balance</h3>
-          <p className="text-sm mt-2">
+          <p className="text-base mt-2">
             The opening balance should match your bank statement on the date you start using the Finance Module. This
             ensures your records align with your actual bank balance from day one.
           </p>
@@ -82,7 +82,7 @@ export default function BankAccountsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Deposits</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Record money coming into your account, such as customer payments, loan proceeds, or owner contributions.
             </p>
             <ol className="list-decimal list-inside space-y-1 mt-2 text-xs">
@@ -97,7 +97,7 @@ export default function BankAccountsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Withdrawals/Payments</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Record money going out of your account, such as supplier payments, rent, utilities, or equipment
               purchases.
             </p>
@@ -113,7 +113,7 @@ export default function BankAccountsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Transfers</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Record money moving between your accounts, such as transferring funds from checking to savings or vice
               versa.
             </p>
@@ -129,7 +129,7 @@ export default function BankAccountsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Bank Fees and Interest</h3>
-            <p className="text-sm mt-2">Record bank charges, fees, or interest earned on your accounts.</p>
+            <p className="text-base mt-2">Record bank charges, fees, or interest earned on your accounts.</p>
             <ol className="list-decimal list-inside space-y-1 mt-2 text-xs">
               <li>Go to Finance {">"} Banking {">"} Transactions</li>
               <li>Click "Add Transaction"</li>
@@ -169,7 +169,7 @@ export default function BankAccountsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Khalid runs a tailoring business with three employees. He maintains three bank accounts: a primary checking
             account for day-to-day operations, a savings account for taxes and large purchases, and a separate checking
             account specifically for payroll. In the Finance Module, he's set up all three accounts and categorized them

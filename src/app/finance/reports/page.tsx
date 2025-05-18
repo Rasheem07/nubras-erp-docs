@@ -31,7 +31,7 @@ export default function ReportsPage() {
               <CardDescription>Essential financial statements</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Income Statement (Profit & Loss)</li>
                 <li>Balance Sheet</li>
                 <li>Cash Flow Statement</li>
@@ -54,7 +54,7 @@ export default function ReportsPage() {
               <CardDescription>Tailored to your specific needs</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Fabric Utilization Report</li>
                 <li>Service Profitability Report</li>
                 <li>Customer Value Report</li>
@@ -75,7 +75,7 @@ export default function ReportsPage() {
               <CardDescription>Simplify tax compliance</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>VAT/Sales Tax Reports</li>
                 <li>Income Tax Summary</li>
                 <li>Payroll Tax Reports</li>
@@ -94,7 +94,7 @@ export default function ReportsPage() {
               <CardDescription>Insights for decision-making</CardDescription>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>Budget vs. Actual Analysis</li>
                 <li>Key Performance Indicators</li>
                 <li>Trend Analysis</li>
@@ -133,7 +133,7 @@ export default function ReportsPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Filtering</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Narrow down report data by date range, customer, service type, payment status, and more to focus on
               specific aspects of your business.
             </p>
@@ -141,7 +141,7 @@ export default function ReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Visualization</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               View data in various formats including tables, charts, and graphs to better understand trends and patterns
               in your financial data.
             </p>
@@ -149,7 +149,7 @@ export default function ReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Exporting</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Export reports in multiple formats (PDF, Excel, CSV) for sharing with team members, accountants, or for
               further analysis.
             </p>
@@ -157,7 +157,7 @@ export default function ReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Drill-Down</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Click on summary figures to see the detailed transactions behind them, allowing you to investigate
               specific areas of interest.
             </p>
@@ -165,7 +165,7 @@ export default function ReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Comparisons</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Compare current performance with previous periods, budgets, or industry benchmarks to gauge your progress
               and identify areas for improvement.
             </p>
@@ -173,7 +173,7 @@ export default function ReportsPage() {
 
           <div className="bg-muted p-4 rounded-lg">
             <h3 className="font-medium">Scheduling</h3>
-            <p className="text-sm mt-2">
+            <p className="text-base mt-2">
               Set up reports to run automatically at regular intervals and be delivered to specified recipients,
               ensuring everyone has the information they need.
             </p>
@@ -182,7 +182,7 @@ export default function ReportsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Noor runs a tailoring business specializing in both traditional and modern clothing. Every Monday morning,
             she reviews her weekly sales report, which breaks down revenue by service type. She noticed that while
             traditional garments generated more total revenue, modern business attire had a higher profit margin. She

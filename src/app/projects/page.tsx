@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function ProjectsDocsPage() {
   return (
-    <div className="container max-w-4xl py-6 lg:py-10">
+    <div className="container py-6 lg:py-10">
       <div className="flex flex-col items-start gap-4 md:flex-row md:justify-between md:gap-8">
         <div className="flex-1 space-y-4">
           <h1 className="inline-block font-heading text-4xl tracking-tight lg:text-5xl">Projects Management</h1>
@@ -30,8 +30,8 @@ export default function ProjectsDocsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           <div>
             <h3 className="text-xl font-semibold mb-3">Why Project Management Matters</h3>
-            <p className="text-sm mb-4">Effective project management is crucial for tailoring businesses to:</p>
-            <ul className="list-disc list-inside space-y-2 text-sm">
+            <p className="text-base mb-4">Effective project management is crucial for tailoring businesses to:</p>
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>Ensure projects are completed on time and within budget</li>
               <li>Manage resources effectively</li>
               <li>Maintain clear communication with clients</li>
@@ -49,7 +49,7 @@ export default function ProjectsDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Structured Workflow</h4>
-                  <p className="text-sm text-muted-foreground">Standardized process for managing tailoring projects</p>
+                  <p className="text-base text-muted-foreground">Standardized process for managing tailoring projects</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -58,7 +58,7 @@ export default function ProjectsDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Efficient Scheduling</h4>
-                  <p className="text-sm text-muted-foreground">Tools for creating and managing project timelines</p>
+                  <p className="text-base text-muted-foreground">Tools for creating and managing project timelines</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -67,7 +67,7 @@ export default function ProjectsDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Resource Management</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-base text-muted-foreground">
                     Effective allocation and tracking of project resources
                   </p>
                 </div>
@@ -78,7 +78,7 @@ export default function ProjectsDocsPage() {
                 </div>
                 <div>
                   <h4 className="font-medium">Risk Management</h4>
-                  <p className="text-sm text-muted-foreground">Identify and mitigate potential project risks</p>
+                  <p className="text-base text-muted-foreground">Identify and mitigate potential project risks</p>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function ProjectsDocsPage() {
                 <CardTitle className="text-lg">Finance Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Automatic invoice generation</li>
                   <li>Project budget tracking</li>
                   <li>Revenue recognition</li>
@@ -111,7 +111,7 @@ export default function ProjectsDocsPage() {
                 <CardTitle className="text-lg">Inventory Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Material reservation</li>
                   <li>Real-time stock availability</li>
                   <li>Material consumption tracking</li>
@@ -125,7 +125,7 @@ export default function ProjectsDocsPage() {
                 <CardTitle className="text-lg">CRM Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside space-y-1 text-sm">
+                <ul className="list-disc list-inside space-y-1 text-base">
                   <li>Client information synchronization</li>
                   <li>Communication history tracking</li>
                   <li>Feedback management</li>
@@ -151,7 +151,7 @@ export default function ProjectsDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Project Statistics:</strong> View key metrics and completion rates
                 </li>
@@ -179,7 +179,7 @@ export default function ProjectsDocsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ul className="list-disc list-inside space-y-2 text-sm">
+              <ul className="list-disc list-inside space-y-2 text-base">
                 <li>
                   <strong>Measurement History:</strong> Track client measurements over time
                 </li>
@@ -199,7 +199,7 @@ export default function ProjectsDocsPage() {
 
         <div className="bg-muted p-4 rounded-lg mt-8">
           <h3 className="font-medium">Real-World Example</h3>
-          <p className="text-sm mt-2 italic">
+          <p className="text-base mt-2 italic">
             "Mohammed runs a high-end tailoring shop specializing in traditional and modern garments. Before
             implementing the Projects Management module, he struggled to keep track of multiple custom orders, often
             missing deadlines or forgetting specific client requirements. Now, he creates a new project for each custom

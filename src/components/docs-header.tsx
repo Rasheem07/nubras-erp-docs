@@ -23,10 +23,10 @@ export function DocsHeader() {
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link
-              href="/docs"
+              href="/"
               className={cn(
                 "transition-colors hover:text-foreground/80",
-                pathname === "/docs" || pathname?.startsWith("/") ? "text-foreground" : "text-foreground/60",
+                pathname === "/" || pathname?.startsWith("/") ? "text-foreground" : "text-foreground/60",
               )}
             >
               Documentation

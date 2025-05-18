@@ -30,7 +30,7 @@ const docsConfig: DocsConfig = {
   mainNav: [
     {
       title: "Documentation",
-      href: "/docs",
+      href: "/",
     },
     {
       title: "Guides",
@@ -43,7 +43,7 @@ const docsConfig: DocsConfig = {
       items: [
         {
           title: "Introduction",
-          href: "/docs",
+          href: "/",
         },
         {
           title: "Installation",

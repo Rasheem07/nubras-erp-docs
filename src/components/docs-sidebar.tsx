@@ -1,29 +1,29 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-import { cn } from "@/lib/utils"
-import { ScrollArea } from "@/components/ui/scroll-area"
+import { cn } from "@/lib/utils";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 interface DocsConfig {
   mainNav: {
-    title: string
-    href: string
-    external?: boolean
-  }[]
+    title: string;
+    href: string;
+    external?: boolean;
+  }[];
   sidebarNav: {
-    title: string
-    href?: string
+    title: string;
+    href?: string;
     items: {
-      title: string
-      href: string
+      title: string;
+      href: string;
       items?: {
-        title: string
-        href: string
-      }[]
-    }[]
-  }[]
+        title: string;
+        href: string;
+      }[];
+    }[];
+  }[];
 }
 
 const docsConfig: DocsConfig = {
@@ -229,21 +229,97 @@ const docsConfig: DocsConfig = {
         },
       ],
     },
+    {
+      title: "POS system",
+      href: "/pos",
+      items: [
+        {
+          title: "Dashboard",
+          href: "/pos/dashboard",
+        },
+        {
+          title: "Sales",
+          href: "/pos/sales",
+          items: [
+            {
+              title: "Processing Sales",
+              href: "/pos/sales/processing-sales",
+            },
+            {
+              title: "Returns & Refunds",
+              href: "/pos/sales/returns-refunds",
+            },
+          ],
+        },
+        {
+          title: "Terminal",
+          href: "/pos/terminal",
+        },
+        {
+          title: "Inventory",
+          href: "/pos/inventory",
+          items: [
+            {
+              title: "Item Management",
+              href: "/pos/inventory/item-management",
+            },
+            {
+              title: "Stock Control",
+              href: "/pos/inventory/stock-control",
+            },
+          ],
+        },
+        {
+          title: "Customers",
+          href: "/pos/customers",
+        },
+        {
+          title: "Catalog",
+          href: "/pos/catalog",
+        },
+        {
+          title: "Tailoring",
+          href: "/pos/tailoring",
+        },
+        {
+          title: "Invoices",
+          href: "/pos/invoices",
+        },
+        {
+          title: "Promotions",
+          href: "/pos/promotions",
+        },
+        {
+          title: "Staff",
+          href: "/pos/staff",
+        },
+        {
+          title: "Reports",
+          href: "/pos/reports",
+        },
+        {
+          title: "Settings",
+          href: "/pos/settings",
+        },
+      ],
+    },
   ],
-}
+};
 
 interface DocsSidebarProps {
-  className?: string
+  className?: string;
 }
 
 export function DocsSidebar({ className }: DocsSidebarProps) {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   return (
     <div className={cn("pb-12 border-r", className)}>
       <div className="space-y-4 py-4">
         <div className="px-3 py-2">
-          <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">Documentation</h2>
+          <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
+            Documentation
+          </h2>
           <ScrollArea className="h-[calc(100vh-10rem)] pr-2">
             <div className="space-y-1">
               {docsConfig.sidebarNav.map((item) => (
@@ -257,7 +333,9 @@ export function DocsSidebar({ className }: DocsSidebarProps) {
                             href={item.href}
                             className={cn(
                               "group flex w-full items-center rounded-md border border-transparent px-4 py-2 hover:underline",
-                              pathname === item.href ? "font-medium text-foreground" : "text-muted-foreground",
+                              pathname === item.href
+                                ? "font-medium text-foreground"
+                                : "text-muted-foreground"
                             )}
                           >
                             {item.title}
@@ -270,7 +348,9 @@ export function DocsSidebar({ className }: DocsSidebarProps) {
                                   href={subItem.href}
                                   className={cn(
                                     "group flex w-full items-center rounded-md border border-transparent px-4 py-2 hover:underline",
-                                    pathname === subItem.href ? "font-medium text-foreground" : "text-muted-foreground",
+                                    pathname === subItem.href
+                                      ? "font-medium text-foreground"
+                                      : "text-muted-foreground"
                                   )}
                                 >
                                   {subItem.title}
@@ -289,5 +369,5 @@ export function DocsSidebar({ className }: DocsSidebarProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }
